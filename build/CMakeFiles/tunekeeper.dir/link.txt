@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/tunekeeper.dir/link.d CMakeFiles/tunekeeper.dir/main.c.o -o tunekeeper  lvgl/lib/liblvgl.a /usr/lib/x86_64-linux-gnu/libSDL2.so lvgl/lib/liblvgl_thorvg.a lvgl/lib/liblvgl_examples.a lvgl/lib/liblvgl_demos.a lvgl/lib/liblvgl.a lvgl/lib/liblvgl_thorvg.a lvgl/lib/liblvgl_examples.a lvgl/lib/liblvgl_demos.a

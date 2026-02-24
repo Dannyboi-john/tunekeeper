@@ -1,0 +1,17 @@
+/home/danny/tunekeeper/build/CMakeFiles/tunekeeper.dir
+/home/danny/tunekeeper/build/CMakeFiles/edit_cache.dir
+/home/danny/tunekeeper/build/CMakeFiles/rebuild_cache.dir
+/home/danny/tunekeeper/build/CMakeFiles/list_install_components.dir
+/home/danny/tunekeeper/build/CMakeFiles/install.dir
+/home/danny/tunekeeper/build/CMakeFiles/install/local.dir
+/home/danny/tunekeeper/build/CMakeFiles/install/strip.dir
+/home/danny/tunekeeper/build/lvgl/CMakeFiles/lvgl.dir
+/home/danny/tunekeeper/build/lvgl/CMakeFiles/lvgl_thorvg.dir
+/home/danny/tunekeeper/build/lvgl/CMakeFiles/lvgl_examples.dir
+/home/danny/tunekeeper/build/lvgl/CMakeFiles/lvgl_demos.dir
+/home/danny/tunekeeper/build/lvgl/CMakeFiles/edit_cache.dir
+/home/danny/tunekeeper/build/lvgl/CMakeFiles/rebuild_cache.dir
+/home/danny/tunekeeper/build/lvgl/CMakeFiles/list_install_components.dir
+/home/danny/tunekeeper/build/lvgl/CMakeFiles/install.dir
+/home/danny/tunekeeper/build/lvgl/CMakeFiles/install/local.dir
+/home/danny/tunekeeper/build/lvgl/CMakeFiles/install/strip.dir

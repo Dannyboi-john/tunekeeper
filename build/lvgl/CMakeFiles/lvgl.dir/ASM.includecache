@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danny/tunekeeper/lv_conf.h
+my_include.h
+/home/danny/tunekeeper/my_include.h
+
+/home/danny/tunekeeper/lvgl/lv_version.h
+
+/home/danny/tunekeeper/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S
+Pre_Include_Global.h
+/home/danny/tunekeeper/lvgl/src/draw/sw/blend/helium/Pre_Include_Global.h
+RTE_Components.h
+/home/danny/tunekeeper/lvgl/src/draw/sw/blend/helium/RTE_Components.h
+../../../../lv_conf_internal.h
+/home/danny/tunekeeper/lvgl/src/lv_conf_internal.h
+
+/home/danny/tunekeeper/lvgl/src/lv_conf_internal.h
+lv_conf_kconfig.h
+/home/danny/tunekeeper/lvgl/src/lv_conf_kconfig.h
+lv_conf.h
+/home/danny/tunekeeper/lvgl/src/lv_conf.h
+../../lv_conf.h
+/home/danny/tunekeeper/lv_conf.h
+my_include.h
+/home/danny/tunekeeper/lvgl/src/my_include.h
+
+/home/danny/tunekeeper/lvgl/src/lv_conf_kconfig.h
+sdkconfig.h
+/home/danny/tunekeeper/lvgl/src/sdkconfig.h
+esp_attr.h
+/home/danny/tunekeeper/lvgl/src/esp_attr.h
+nuttx/config.h
+-
+../lv_version.h
+/home/danny/tunekeeper/lvgl/lv_version.h
+lv_rt_thread_conf.h
+-
+
