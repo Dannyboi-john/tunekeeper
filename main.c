@@ -11,7 +11,7 @@ int main(void)
 
     /* Create a label */
     lv_obj_t * label = lv_label_create(lv_screen_active());
-    lv_label_set_text(label, "HELLO LVGL v9 + SDL!@!!");
+    lv_label_set_text(label, "This is the humble beginning of a beatiful thing <3");
     lv_obj_center(label);
 
     while(1) {
