@@ -45,7 +45,7 @@ int main(void)
 
     /* Create a label for the button */
     my_label1 = lv_label_create(my_button1);
-    lv_label_set_text_fmt(my_label1, "Clicked 0 times");
+    lv_label_set_text_fmt(my_label1, "Click Me!");
     lv_obj_set_style_text_color(my_label1, lv_color_hex(0xff0000), 0);
 
     while(1) {
