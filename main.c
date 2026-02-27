@@ -24,7 +24,6 @@ int main(void)
 {
     /* Initialize LVGL */
     lv_init();
-    printf("Program Started!\n");
     fflush(stdout);
 
     /* Initialize SDL display */
