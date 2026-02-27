@@ -436,9 +436,12 @@ CMakeFiles/tunekeeper.dir/main.c.o: /home/danny/tunekeeper/main.c \
   /usr/include/linux/limits.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdio.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -452,9 +455,17 @@ CMakeFiles/tunekeeper.dir/main.c.o: /home/danny/tunekeeper/main.c \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -725,6 +736,16 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 
 /lib/i386-linux-gnu/libm.so.6:
 
+/lib/i386-linux-gnu/libgbm.so.1:
+
+/lib/i386-linux-gnu/libdrm.so.2:
+
+/lib/i386-linux-gnu/libdbus-1.so.3:
+
+/lib/i386-linux-gnu/libcap.so.2:
+
+/lib/i386-linux-gnu/libXss.so.1:
+
 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
 
 /home/danny/tunekeeper/lvgl/src/libs/svg/lv_svg_render.h:
@@ -736,8 +757,6 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 /usr/lib/i386-linux-gnu/libvorbisenc.so.2:
 
 /home/danny/tunekeeper/lvgl/src/libs/libpng/lv_libpng.h:
-
-/lib/i386-linux-gnu/libdrm.so.2:
 
 /home/danny/tunekeeper/lvgl/src/libs/ffmpeg/lv_ffmpeg.h:
 
@@ -754,6 +773,12 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 /usr/lib/i386-linux-gnu/libdbus-1.so.3:
 
 /home/danny/tunekeeper/lvgl/src/libs/barcode/lv_barcode.h:
+
+/lib/i386-linux-gnu/libexpat.so.1:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/home/danny/tunekeeper/lvgl/src/widgets/canvas/lv_canvas.h:
 
 /home/danny/tunekeeper/lvgl/src/drivers/sdl/lv_sdl_mouse.h:
 
@@ -783,17 +808,7 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 
 /home/danny/tunekeeper/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h:
 
-/home/danny/tunekeeper/lvgl/src/drivers/opengles/lv_opengles_glfw.h:
-
 /home/danny/tunekeeper/lvgl/src/libs/fsdrv/lv_fsdrv.h:
-
-/lib/i386-linux-gnu/libXss.so.1:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/home/danny/tunekeeper/lvgl/src/widgets/canvas/lv_canvas.h:
-
-/lib/i386-linux-gnu/libexpat.so.1:
 
 /home/danny/tunekeeper/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h:
 
@@ -833,10 +848,6 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 
 /home/danny/tunekeeper/lvgl/src/draw/sw/lv_draw_sw_utils.h:
 
-/home/danny/tunekeeper/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h:
-
-/home/danny/tunekeeper/lvgl/src/draw/snapshot/lv_snapshot.h:
-
 /lib/i386-linux-gnu/libXext.so.6:
 
 /home/danny/tunekeeper/lvgl/src/draw/lv_image_decoder.h:
@@ -865,11 +876,29 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
+/lib/i386-linux-gnu/libdecor-0.so.0:
+
+/home/danny/tunekeeper/lvgl/src/widgets/checkbox/lv_checkbox.h:
+
+/home/danny/tunekeeper/lvgl/src/core/lv_obj_draw.h:
+
 /usr/lib/i386-linux-gnu/libgbm.so.1:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /home/danny/tunekeeper/lvgl/src/font/font_manager/lv_font_manager.h:
 
+/home/danny/tunekeeper/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h:
+
+/home/danny/tunekeeper/lvgl/src/draw/snapshot/lv_snapshot.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
 /home/danny/tunekeeper/lvgl/src/libs/qrcode/lv_qrcode.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /lib/x86_64-linux-gnu/libwayland-egl.so.1:
 
@@ -1017,6 +1046,12 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 
 /home/danny/tunekeeper/lvgl/lvgl.h:
 
+/lib/i386-linux-gnu/libasyncns.so.0:
+
+/home/danny/tunekeeper/lvgl/src/widgets/animimage/lv_animimage.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
 /home/danny/tunekeeper/lvgl/src/font/lv_font.h:
 
 /home/danny/tunekeeper/lvgl/src/font/lv_symbol_def.h:
@@ -1036,6 +1071,10 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 /home/danny/tunekeeper/lvgl/src/misc/lv_area.h:
 
 /home/danny/tunekeeper/lvgl/src/drivers/display/st7796/lv_st7796.h:
+
+/lib/i386-linux-gnu/libasound.so.2:
+
+/home/danny/tunekeeper/lvgl/src/draw/lv_draw_arc.h:
 
 /home/danny/tunekeeper/lvgl/src/misc/lv_style_gen.h:
 
@@ -1127,6 +1166,10 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 
 /home/danny/tunekeeper/lvgl/src/misc/lv_log.h:
 
+/home/danny/tunekeeper/lvgl/src/drivers/opengles/lv_opengles_glfw.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
 /lib/x86_64-linux-gnu/libXdmcp.so.6:
 
 /home/danny/tunekeeper/lvgl/src/misc/lv_profiler_builtin.h:
@@ -1142,6 +1185,8 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 /home/danny/tunekeeper/lvgl/src/indev/lv_indev.h:
 
 /home/danny/tunekeeper/lvgl/src/widgets/3dtexture/lv_3dtexture.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /home/danny/tunekeeper/lvgl/src/others/file_explorer/lv_file_explorer.h:
 
@@ -1185,12 +1230,6 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 
 /lib/i386-linux-gnu/libXdmcp.so.6:
 
-/home/danny/tunekeeper/lvgl/src/widgets/checkbox/lv_checkbox.h:
-
-/home/danny/tunekeeper/lvgl/src/core/lv_obj_draw.h:
-
-/lib/i386-linux-gnu/libdecor-0.so.0:
-
 /home/danny/tunekeeper/lvgl/src/widgets/gif/lv_gif.h:
 
 /home/danny/tunekeeper/lvgl/src/widgets/imagebutton/lv_imagebutton.h:
@@ -1225,6 +1264,8 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 
 /home/danny/tunekeeper/lvgl/src/widgets/spinbox/lv_spinbox.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
 /home/danny/tunekeeper/lvgl/src/widgets/spinner/lv_spinner.h:
 
 /lib/i386-linux-gnu/libogg.so.0:
@@ -1241,6 +1282,8 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 
 /home/danny/tunekeeper/lvgl/src/widgets/switch/lv_switch.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
 /usr/lib/i386-linux-gnu/libcap.so.2:
 
 /home/danny/tunekeeper/lvgl/src/widgets/win/lv_win.h:
@@ -1252,6 +1295,14 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 /usr/include/inttypes.h:
 
 /usr/include/stdc-predef.h:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/lib/i386-linux-gnu/libffi.so.8:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /home/danny/tunekeeper/lvgl/src/widgets/bar/lv_bar.h:
 
@@ -1295,8 +1346,6 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h:
 
-/lib/i386-linux-gnu/libdbus-1.so.3:
-
 /home/danny/tunekeeper/lvgl/src/widgets/textarea/lv_textarea.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/stdbool.h:
@@ -1316,19 +1365,3 @@ CMakeFiles/tunekeeper.dir/main.c.o:
 /home/danny/tunekeeper/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h:
 
 /lib/i386-linux-gnu/libXrandr.so.2:
-
-/home/danny/tunekeeper/lvgl/src/draw/lv_draw_arc.h:
-
-/lib/i386-linux-gnu/libasound.so.2:
-
-/home/danny/tunekeeper/lvgl/src/widgets/animimage/lv_animimage.h:
-
-/lib/i386-linux-gnu/libasyncns.so.0:
-
-/lib/i386-linux-gnu/libcap.so.2:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/lib/i386-linux-gnu/libffi.so.8:
-
-/lib/i386-linux-gnu/libgbm.so.1:
