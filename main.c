@@ -1,21 +1,29 @@
 #include "lvgl/lvgl.h"
 #include <unistd.h>
 #include <stdio.h>
+#include <stdbool.h>
 
-static int click_count = 0;
+
 static lv_obj_t * my_label1;
+static bool isPlaying = true;
 
 static void btn_event_cb(lv_event_t * e)
 {
     lv_event_code_t code = lv_event_get_code(e);
 
     if(code == LV_EVENT_CLICKED) {
-        click_count++;
-        fprintf(stderr, "Event Fired\n");
-        
-        lv_label_set_text_fmt(my_label1,
-            "Clicked %d times",
-            click_count);
+
+        if (isPlaying) {
+            fprintf(stderr, "Event Fired\n");
+            lv_label_set_text_fmt(my_label1, LV_SYMBOL_PAUSE);
+            isPlaying = !isPlaying;
+
+        } else {
+            fprintf(stderr, "Event Fired\n");
+            lv_label_set_text_fmt(my_label1, LV_SYMBOL_PLAY);
+            isPlaying = !isPlaying;
+        }
+
     }
 }
 
@@ -41,7 +49,7 @@ int main(void)
     /* Creating a button */
     lv_obj_t * my_button1 = lv_button_create(lv_screen_active());
     /* Set parent-sized witdth, and content-sized height */
-    lv_obj_set_size(my_button1, lv_pct(10), lv_pct(10));
+    lv_obj_set_size(my_button1, LV_SIZE_CONTENT, lv_pct(10));
     /* Align to the center */
     lv_obj_align(my_button1, LV_ALIGN_TOP_LEFT, 0, 0);
     /* Attaching the callback function inside main() */
@@ -49,7 +57,7 @@ int main(void)
 
     /* Create a label for the button */
     my_label1 = lv_label_create(my_button1);
-    lv_label_set_text_fmt(my_label1, "Click Me!");
+    lv_label_set_text_fmt(my_label1, LV_SYMBOL_PLAY);
     lv_obj_set_style_text_color(my_label1, lv_color_hex(0xff0000), 0);
 
     while(1) {
