@@ -47,15 +47,20 @@ int main(void)
     lv_sdl_mouse_create();
     lv_sdl_keyboard_create();
 
+    /* ***************** */
     /* Creating a button */
+    /* ***************** */
     lv_obj_t * my_button1 = lv_button_create(lv_screen_active());
+    /* Attaching the callback function inside main() */
+    lv_obj_add_event_cb(my_button1, btn_event_cb, LV_EVENT_CLICKED, NULL);
+
+    /* ******************** */
+    /* Stylizing the button */
+    /* ******************** */
     /* Set parent-sized witdth, and content-sized height */
     lv_obj_set_size(my_button1, LV_SIZE_CONTENT, lv_pct(10));
     /* Align to the center */
     lv_obj_align(my_button1, LV_ALIGN_TOP_LEFT, 0, 0);
-    /* Attaching the callback function inside main() */
-    lv_obj_add_event_cb(my_button1, btn_event_cb, LV_EVENT_CLICKED, NULL);
-    /* Button background color */
     lv_obj_set_style_bg_color(my_button1, lv_color_hex(0x322D31), LV_PART_MAIN);
 
     /* Create a label for the button */
