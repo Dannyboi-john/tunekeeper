@@ -29,17 +29,21 @@ int main(void)
     /* Initialize SDL display */
     lv_display_t * disp = lv_sdl_window_create(800, 480);
 
+    /* Screen color setting */
+    /* lv_disp_set_bg_color(disp, lv_color_hex(0x4D4C5C)); */
+    lv_obj_set_style_bg_color(lv_screen_active(), lv_color_hex(0x4D4C5C), LV_PART_MAIN);
+
     
     /* Initialize mouse and keyboard */
     lv_sdl_mouse_create();
     lv_sdl_keyboard_create();
 
-    /* Trying to create a button */
+    /* Creating a button */
     lv_obj_t * my_button1 = lv_button_create(lv_screen_active());
     /* Set parent-sized witdth, and content-sized height */
-    lv_obj_set_size(my_button1, lv_pct(30), LV_SIZE_CONTENT);
-    /* Align to the right center with 30px offset horizontally */
-    lv_obj_align(my_button1, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_set_size(my_button1, lv_pct(10), lv_pct(10));
+    /* Align to the center */
+    lv_obj_align(my_button1, LV_ALIGN_TOP_LEFT, 0, 0);
     /* Attaching the callback function inside main() */
     lv_obj_add_event_cb(my_button1, btn_event_cb, LV_EVENT_CLICKED, NULL);
 
