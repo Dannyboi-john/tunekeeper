@@ -3,10 +3,12 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-
+/* Declaration of the label + bool */
 static lv_obj_t * my_label1;
 static bool isPlaying = true;
 
+
+/* Callback function that handles play / pause click events */
 static void btn_event_cb(lv_event_t * e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -38,7 +40,6 @@ int main(void)
     lv_display_t * disp = lv_sdl_window_create(800, 480);
 
     /* Screen color setting */
-    /* lv_disp_set_bg_color(disp, lv_color_hex(0x4D4C5C)); */
     lv_obj_set_style_bg_color(lv_screen_active(), lv_color_hex(0x4D4C5C), LV_PART_MAIN);
 
     
@@ -54,6 +55,8 @@ int main(void)
     lv_obj_align(my_button1, LV_ALIGN_TOP_LEFT, 0, 0);
     /* Attaching the callback function inside main() */
     lv_obj_add_event_cb(my_button1, btn_event_cb, LV_EVENT_CLICKED, NULL);
+    /* Button background color */
+    lv_obj_set_style_bg_color(my_button1, lv_color_hex(0x322D31), LV_PART_MAIN);
 
     /* Create a label for the button */
     my_label1 = lv_label_create(my_button1);
