@@ -4,10 +4,11 @@
 #include <stdbool.h>
 #include <unistd.h>
 
+
 /* Declaration of the label + bool */
 static lv_obj_t * my_label1;
 static bool isPlaying = true;
-
+static lv_obj_t * my_label2;
 
 /* Callback function that handles play / pause click events */
 static void btn_event_cb(lv_event_t * e)
@@ -30,36 +31,65 @@ static void btn_event_cb(lv_event_t * e)
     }
 }
 
+
+/* Creating separate function for play/pause */
+static lv_obj_t * create_play_button(lv_obj_t * parent)
+{
+    /* Create the button */
+    lv_obj_t * play_button = lv_button_create(parent);
+
+    /* Attach the callback */
+    lv_obj_add_event_cb(play_button, btn_event_cb, LV_EVENT_CLICKED, NULL);
+
+    /* Label styling */
+    my_label1 = lv_label_create(play_button);
+    lv_label_set_text_fmt(my_label1, LV_SYMBOL_PLAY);
+    lv_obj_set_style_text_color(my_label1, lv_color_hex(0xff0000), 0);
+
+    /* Button styling */
+    lv_obj_set_size(play_button, lv_pct(6), lv_pct(10));
+    /* Align to the top left */
+    lv_obj_set_pos(play_button, 0, 0);
+    lv_obj_set_style_bg_color(play_button, lv_color_hex(0x322D31), LV_PART_MAIN);
+    
+    return play_button;
+}
+
+
+static lv_obj_t * create_stop_button(lv_obj_t * parent)
+{
+   /* Create the button */
+    lv_obj_t * stop_button = lv_button_create(parent);
+
+    /* Label styling */
+    my_label2 = lv_label_create(stop_button);
+    lv_label_set_text_fmt(my_label2, LV_SYMBOL_STOP);
+    lv_obj_set_style_text_color(my_label2, lv_color_hex(0xff0000), 0);
+
+    /* Button styling */
+    lv_obj_set_size(stop_button, LV_SIZE_CONTENT, lv_pct(10));
+    lv_obj_set_style_bg_color(stop_button, lv_color_hex(0x322D31), LV_PART_MAIN);
+    
+    return stop_button;
+}
+
+
 void ui_init(void)
 {
+
+    lv_obj_t * screen = lv_screen_active();
     /* Screen color setting */
     lv_obj_set_style_bg_color(lv_screen_active(), lv_color_hex(0x4D4C5C), LV_PART_MAIN);
 
-
-    /* Initialize mouse and keyboard */
+    /* Initialize mouse and keyboard while building - touch events later */
     lv_sdl_mouse_create();
     lv_sdl_keyboard_create();
 
-    /* ***************** */
-    /* Creating a button */
-    /* ***************** */
-    lv_obj_t * my_button1 = lv_button_create(lv_screen_active());
-    /* Attaching the callback function inside main() */
-    lv_obj_add_event_cb(my_button1, btn_event_cb, LV_EVENT_CLICKED, NULL);
+    lv_obj_t * play_button = create_play_button(screen);
+    lv_obj_t * stop_button = create_stop_button(screen);
 
-    /* ******************** */
-    /* Stylizing the button */
-    /* ******************** */
-    /* Init the style for the default state */
-    
-    /* Set parent-sized witdth, and content-sized height */
-    lv_obj_set_size(my_button1, LV_SIZE_CONTENT, lv_pct(10));
-    /* Align to the center */
-    lv_obj_align(my_button1, LV_ALIGN_TOP_LEFT, 0, 0);
-    lv_obj_set_style_bg_color(my_button1, lv_color_hex(0x322D31), LV_PART_MAIN);
+    lv_obj_align_to(stop_button, play_button, LV_ALIGN_RIGHT_MID, 80, 0);
 
-    /* Create a label for the button */
-    my_label1 = lv_label_create(my_button1);
-    lv_label_set_text_fmt(my_label1, LV_SYMBOL_PLAY);
-    lv_obj_set_style_text_color(my_label1, lv_color_hex(0xff0000), 0);
 }
+
+
