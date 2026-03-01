@@ -1,0 +1,32 @@
+# Build folders
+/build/
+/CMakeFiles/
+/CmakeCache.txt
+/cmake-build-debug/
+/cmake-build-release/
+cmake_install.cmake
+Makefile
+
+# Executables
+*.out
+*.exe
+*.elf
+*.bin
+
+#  Object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.so
+*.dll
+*.dylib
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+*.tmp
