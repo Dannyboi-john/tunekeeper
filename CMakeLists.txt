@@ -8,7 +8,7 @@ find_package(SDL2 REQUIRED)
 add_subdirectory(lvgl)
 
 # Source
-add_executable(tunekeeper main.c)
+add_executable(tunekeeper main.c ui/ui.c)
 
 target_link_libraries(tunekeeper
     lvgl

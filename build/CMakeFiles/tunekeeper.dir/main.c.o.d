@@ -479,7 +479,8 @@ CMakeFiles/tunekeeper.dir/main.c.o: /home/danny/tunekeeper/main.c \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /home/danny/tunekeeper/ui/ui.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \

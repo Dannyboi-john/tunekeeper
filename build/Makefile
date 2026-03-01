@@ -250,6 +250,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/main.c.s
 .PHONY : main.c.s
 
+ui/ui.o: ui/ui.c.o
+.PHONY : ui/ui.o
+
+# target to build an object file
+ui/ui.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/ui.c.o
+.PHONY : ui/ui.c.o
+
+ui/ui.i: ui/ui.c.i
+.PHONY : ui/ui.i
+
+# target to preprocess a source file
+ui/ui.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/ui.c.i
+.PHONY : ui/ui.c.i
+
+ui/ui.s: ui/ui.c.s
+.PHONY : ui/ui.s
+
+# target to generate assembly for a file
+ui/ui.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/ui.c.s
+.PHONY : ui/ui.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,6 +294,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... ui/ui.o"
+	@echo "... ui/ui.i"
+	@echo "... ui/ui.s"
 .PHONY : help
 
 

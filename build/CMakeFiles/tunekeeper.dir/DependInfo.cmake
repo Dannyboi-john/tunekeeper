@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/danny/tunekeeper/main.c" "CMakeFiles/tunekeeper.dir/main.c.o" "gcc" "CMakeFiles/tunekeeper.dir/main.c.o.d"
+  "/home/danny/tunekeeper/ui/ui.c" "CMakeFiles/tunekeeper.dir/ui/ui.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/ui.c.o.d"
   "" "tunekeeper" "gcc" "CMakeFiles/tunekeeper.dir/link.d"
   )
 

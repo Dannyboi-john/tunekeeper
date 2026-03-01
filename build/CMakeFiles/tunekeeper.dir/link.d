@@ -3,6 +3,7 @@ tunekeeper: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/tunekeeper.dir/main.c.o \
+  CMakeFiles/tunekeeper.dir/ui/ui.c.o \
   lvgl/lib/liblvgl.a \
   /usr/lib/x86_64-linux-gnu/libSDL2.so \
   lvgl/lib/liblvgl_thorvg.a \
@@ -153,6 +154,8 @@ tunekeeper: \
 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
 
 CMakeFiles/tunekeeper.dir/main.c.o:
+
+CMakeFiles/tunekeeper.dir/ui/ui.c.o:
 
 lvgl/lib/liblvgl.a:
 
