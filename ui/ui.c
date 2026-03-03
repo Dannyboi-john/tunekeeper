@@ -10,6 +10,8 @@ static lv_obj_t * my_label1;
 static bool isPlaying = true;
 static lv_obj_t * my_label2;
 
+
+
 /* Callback function that handles play / pause click events */
 static void btn_event_cb(lv_event_t * e)
 {
@@ -74,6 +76,24 @@ static lv_obj_t * create_stop_button(lv_obj_t * parent)
 }
 
 
+static lv_obj_t * create_bpm_dropdown(lv_obj_t * parent)
+{
+    lv_obj_t * bpm_dd = lv_dropdown_create(parent);
+    lv_dropdown_clear_options(bpm_dd);
+    lv_obj_align(bpm_dd, LV_ALIGN_TOP_MID, 0, 0);
+
+    for (int i = 20; i <= 200; i++) {
+        char buffer[16];
+        snprintf(buffer, sizeof(buffer), "%d", i);
+        lv_dropdown_add_option(bpm_dd, buffer, LV_DROPDOWN_POS_LAST);
+    }
+
+    lv_dropdown_set_selected(bpm_dd, 120 - 20);
+
+    return bpm_dd;
+}
+
+
 void ui_init(void)
 {
 
@@ -87,6 +107,7 @@ void ui_init(void)
 
     lv_obj_t * play_button = create_play_button(screen);
     lv_obj_t * stop_button = create_stop_button(screen);
+    lv_obj_t * bpm_dd = create_bpm_dropdown(screen);
 
     lv_obj_align_to(stop_button, play_button, LV_ALIGN_RIGHT_MID, 80, 0);
 
