@@ -3,12 +3,16 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <unistd.h>
+#include "ui/images/icons.h"
 
 
-/* Declaration of the label + bool */
-static lv_obj_t * my_label1;
+/* Declaration of the labels + bool + image */
+static lv_obj_t * play_label;
 static bool isPlaying = true;
-static lv_obj_t * my_label2;
+static lv_obj_t * stop_label;
+static lv_obj_t * bpm_label;
+
+LV_IMAGE_DECLARE(record);
 
 
 
@@ -21,18 +25,42 @@ static void btn_event_cb(lv_event_t * e)
 
         if (isPlaying) {
             fprintf(stderr, "Event Fired\n");
-            lv_label_set_text_fmt(my_label1, LV_SYMBOL_PAUSE);
+            lv_label_set_text_fmt(play_label
+            , LV_SYMBOL_PAUSE);
             isPlaying = !isPlaying;
 
         } else {
             fprintf(stderr, "Event Fired\n");
-            lv_label_set_text_fmt(my_label1, LV_SYMBOL_PLAY);
+            lv_label_set_text_fmt(play_label
+            , LV_SYMBOL_PLAY);
             isPlaying = !isPlaying;
         }
 
     }
 }
 
+static lv_obj_t * create_record_button(lv_obj_t * parent)
+{
+    /* Create the button */
+    lv_obj_t * record_button = lv_button_create(parent);
+
+
+    lv_obj_set_size(record_button, lv_pct(6), lv_pct(10));
+    lv_obj_t * record_icon = lv_image_create(record_button);
+
+    /* Setting icon to button */
+    lv_image_set_src(record_icon, &record);
+    lv_obj_center(record_icon);
+
+    /* Scaling the img down a little bit */
+    lv_image_set_scale(record_icon, 128);
+
+    lv_obj_set_style_radius(record_button, 1, LV_PART_MAIN);
+    lv_obj_set_style_bg_color(record_button, lv_color_hex(0x322D31), LV_PART_MAIN);
+    lv_obj_set_pos(record_button, 0, 0);
+
+    return record_button;
+}
 
 /* Creating separate function for play/pause */
 static lv_obj_t * create_play_button(lv_obj_t * parent)
@@ -44,15 +72,17 @@ static lv_obj_t * create_play_button(lv_obj_t * parent)
     lv_obj_add_event_cb(play_button, btn_event_cb, LV_EVENT_CLICKED, NULL);
 
     /* Label styling */
-    my_label1 = lv_label_create(play_button);
-    lv_label_set_text_fmt(my_label1, LV_SYMBOL_PLAY);
-    lv_obj_set_style_text_color(my_label1, lv_color_hex(0xff0000), 0);
+    play_label = lv_label_create(play_button);
+    lv_label_set_text_fmt(play_label, LV_SYMBOL_PLAY);
+    lv_obj_set_style_text_color(play_label, lv_color_hex(0xff0000), 0);
 
     /* Button styling */
-    lv_obj_set_size(play_button, lv_pct(6), lv_pct(10));
-    /* Align to the top left */
-    lv_obj_set_pos(play_button, 0, 0);
+    lv_obj_set_style_radius(play_button, 1, LV_PART_MAIN);
     lv_obj_set_style_bg_color(play_button, lv_color_hex(0x322D31), LV_PART_MAIN);
+    lv_obj_set_size(play_button, lv_pct(6), lv_pct(10));
+    lv_obj_center(play_label);
+    /* Align to the top left */
+    lv_obj_set_pos(play_button, lv_pct(6), 0);
     
     return play_button;
 }
@@ -64,13 +94,16 @@ static lv_obj_t * create_stop_button(lv_obj_t * parent)
     lv_obj_t * stop_button = lv_button_create(parent);
 
     /* Label styling */
-    my_label2 = lv_label_create(stop_button);
-    lv_label_set_text_fmt(my_label2, LV_SYMBOL_STOP);
-    lv_obj_set_style_text_color(my_label2, lv_color_hex(0xff0000), 0);
+    stop_label = lv_label_create(stop_button);
+    lv_label_set_text_fmt(stop_label, LV_SYMBOL_STOP);
+    lv_obj_set_style_text_color(stop_label, lv_color_hex(0xff0000), 0);
 
     /* Button styling */
-    lv_obj_set_size(stop_button, LV_SIZE_CONTENT, lv_pct(10));
+    lv_obj_center(stop_label);
+    lv_obj_set_size(stop_button, lv_pct(6), lv_pct(10));
     lv_obj_set_style_bg_color(stop_button, lv_color_hex(0x322D31), LV_PART_MAIN);
+    lv_obj_set_pos(stop_button, lv_pct(12), 0);
+    lv_obj_set_style_radius(stop_button, 1, LV_PART_MAIN);
     
     return stop_button;
 }
@@ -108,9 +141,7 @@ void ui_init(void)
     lv_obj_t * play_button = create_play_button(screen);
     lv_obj_t * stop_button = create_stop_button(screen);
     lv_obj_t * bpm_dd = create_bpm_dropdown(screen);
-
-    lv_obj_align_to(stop_button, play_button, LV_ALIGN_RIGHT_MID, 80, 0);
-
+    lv_obj_t * record_button = create_record_button(screen);
 }
 
 

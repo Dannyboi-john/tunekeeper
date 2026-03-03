@@ -250,6 +250,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/main.c.s
 .PHONY : main.c.s
 
+ui/images/record.o: ui/images/record.c.o
+.PHONY : ui/images/record.o
+
+# target to build an object file
+ui/images/record.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/images/record.c.o
+.PHONY : ui/images/record.c.o
+
+ui/images/record.i: ui/images/record.c.i
+.PHONY : ui/images/record.i
+
+# target to preprocess a source file
+ui/images/record.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/images/record.c.i
+.PHONY : ui/images/record.c.i
+
+ui/images/record.s: ui/images/record.c.s
+.PHONY : ui/images/record.s
+
+# target to generate assembly for a file
+ui/images/record.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/images/record.c.s
+.PHONY : ui/images/record.c.s
+
 ui/ui.o: ui/ui.c.o
 .PHONY : ui/ui.o
 
@@ -294,6 +318,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... ui/images/record.o"
+	@echo "... ui/images/record.i"
+	@echo "... ui/images/record.s"
 	@echo "... ui/ui.o"
 	@echo "... ui/ui.i"
 	@echo "... ui/ui.s"

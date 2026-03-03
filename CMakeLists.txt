@@ -7,8 +7,10 @@ find_package(SDL2 REQUIRED)
 
 add_subdirectory(lvgl)
 
+file(GLOB UI_IMAGES ui/images/*.c)
+
 # Source
-add_executable(tunekeeper main.c ui/ui.c)
+add_executable(tunekeeper main.c ui/ui.c ${UI_IMAGES})
 
 target_link_libraries(tunekeeper
     lvgl
