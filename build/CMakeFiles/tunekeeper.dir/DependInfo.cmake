@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/danny/tunekeeper/main.c" "CMakeFiles/tunekeeper.dir/main.c.o" "gcc" "CMakeFiles/tunekeeper.dir/main.c.o.d"
   "/home/danny/tunekeeper/ui/components/play_button.c" "CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o.d"
+  "/home/danny/tunekeeper/ui/components/stop_button.c" "CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o.d"
   "/home/danny/tunekeeper/ui/images/record.c" "CMakeFiles/tunekeeper.dir/ui/images/record.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/images/record.c.o.d"
   "/home/danny/tunekeeper/ui/ui.c" "CMakeFiles/tunekeeper.dir/ui/ui.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/ui.c.o.d"
   "" "tunekeeper" "gcc" "CMakeFiles/tunekeeper.dir/link.d"

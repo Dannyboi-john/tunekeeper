@@ -2,35 +2,42 @@
 #include "../lvgl/lvgl.h"
 #include <stdio.h>
 #include <string.h>
+#include "../app_state.h"
 
 static lv_style_t style_button;
 
 static void play_button_event_cb(lv_event_t * e)
 {
-    lv_obj_t * label = lv_event_get_user_data(e);
+    app_state_t * state = lv_event_get_user_data(e);
+    lv_obj_t * button = lv_event_get_target(e);
 
-    if (lv_event_get_code(e) == LV_EVENT_CLICKED ) {
+    // Toggle paused state
+    state->is_paused = !state->is_paused;
 
-        const char * current = lv_label_get_text(label);
+    // Refresh the button icon to reflect the state
+    play_button_update(button, state);
+}
 
-        if (strcmp(lv_label_get_text(label), LV_SYMBOL_PLAY) == 0) {
-            lv_label_set_text(label, LV_SYMBOL_PAUSE);
-        } else {
-            lv_label_set_text(label, LV_SYMBOL_PLAY);
-        }
 
+void play_button_update(lv_obj_t * play_button, app_state_t * state) {
+    if (!play_button) return;
+    lv_obj_t * play_label = lv_obj_get_child(play_button, 0);
+
+    if (state->is_paused) {
+        lv_label_set_text(play_label, LV_SYMBOL_PLAY);
+    } else {
+        lv_label_set_text(play_label, LV_SYMBOL_PAUSE); 
     }
 }
 
 /* Creating separate function for play/pause */
-lv_obj_t * create_play_button(lv_obj_t * parent)
+lv_obj_t * create_play_button(lv_obj_t * parent, app_state_t * state)
 {
     /* Create the button */
     lv_obj_t * play_button = lv_button_create(parent);
     lv_obj_t * play_label = lv_label_create(play_button);
-
     /* Attach the callback */
-    lv_obj_add_event_cb(play_button, play_button_event_cb, LV_EVENT_CLICKED, play_label);
+    lv_obj_add_event_cb(play_button, play_button_event_cb, LV_EVENT_CLICKED, state);
     lv_style_init(&style_button);
 
     /* Adding the style to the button */

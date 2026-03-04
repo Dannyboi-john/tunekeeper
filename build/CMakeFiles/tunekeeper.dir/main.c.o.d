@@ -490,4 +490,5 @@ CMakeFiles/tunekeeper.dir/main.c.o: /home/danny/tunekeeper/main.c \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /home/danny/tunekeeper/app_state.h

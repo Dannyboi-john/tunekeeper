@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include "ui/ui.h"
 #include <stdio.h>
-
+#include "app_state.h"
 
 int main(void)
 {
@@ -13,6 +13,10 @@ int main(void)
     /* Initialize SDL display */
     lv_display_t * disp = lv_sdl_window_create(800, 480);
     ui_init();
+
+    app_state_t app_state = {
+        .is_paused = true
+    };
 
     while(1) {
         lv_timer_handler();

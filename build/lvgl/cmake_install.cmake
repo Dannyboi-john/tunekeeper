@@ -48,6 +48,7 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE FILE FILES
+    "/home/danny/tunekeeper/app_state.h"
     "/home/danny/tunekeeper/lv_conf.h"
     "/home/danny/tunekeeper/lvgl/lv_version.h"
     "/home/danny/tunekeeper/lvgl/lvgl.h"
@@ -60,6 +61,7 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE FILE FILES
+    "/home/danny/tunekeeper/app_state.h"
     "/home/danny/tunekeeper/lv_conf.h"
     "/home/danny/tunekeeper/lvgl/lv_version.h"
     "/home/danny/tunekeeper/lvgl/lvgl.h"
@@ -76,6 +78,7 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE FILE FILES
+    "/home/danny/tunekeeper/app_state.h"
     "/home/danny/tunekeeper/lv_conf.h"
     "/home/danny/tunekeeper/lvgl/lv_version.h"
     "/home/danny/tunekeeper/lvgl/lvgl.h"
@@ -92,6 +95,7 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE FILE FILES
+    "/home/danny/tunekeeper/app_state.h"
     "/home/danny/tunekeeper/lv_conf.h"
     "/home/danny/tunekeeper/lvgl/lv_version.h"
     "/home/danny/tunekeeper/lvgl/lvgl.h"
@@ -108,6 +112,7 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE FILE FILES
+    "/home/danny/tunekeeper/app_state.h"
     "/home/danny/tunekeeper/lv_conf.h"
     "/home/danny/tunekeeper/lvgl/lv_version.h"
     "/home/danny/tunekeeper/lvgl/lvgl.h"
