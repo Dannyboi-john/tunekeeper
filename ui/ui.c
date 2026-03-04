@@ -8,7 +8,7 @@
 
 /* Declaration of the labels + bool + image */
 static lv_obj_t * play_label;
-static bool isPlaying = true;
+static bool isPaused = true;
 static lv_obj_t * stop_label;
 static lv_obj_t * bpm_label;
 
@@ -27,20 +27,34 @@ static void btn_event_cb(lv_event_t * e)
 
     if(code == LV_EVENT_CLICKED) {
 
-        if (isPlaying) {
+        if (isPaused) {
             fprintf(stderr, "Event Fired\n");
             lv_label_set_text_fmt(play_label
             , LV_SYMBOL_PAUSE);
-            isPlaying = !isPlaying;
+            isPaused = !isPaused;
 
         } else {
             fprintf(stderr, "Event Fired\n");
             lv_label_set_text_fmt(play_label
             , LV_SYMBOL_PLAY);
-            isPlaying = !isPlaying;
+            isPaused = !isPaused;
         }
 
     }
+}
+
+static void stop_button_event_cb(lv_event_t * e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+
+    if(code == LV_EVENT_CLICKED && !isPaused) {
+        fprintf(stderr, "Event Fired\n");
+        lv_label_set_text_fmt(play_label, LV_SYMBOL_PLAY);
+        isPaused = true;
+    } else if (code == LV_EVENT_CLICKED && isPaused) {
+        fprintf(stderr, "Event fired\n");
+    }
+
 }
 
 static lv_obj_t * create_record_button(lv_obj_t * parent)
@@ -115,6 +129,9 @@ static lv_obj_t * create_stop_button(lv_obj_t * parent)
     /* Label styling */
     stop_label = lv_label_create(stop_button);
     lv_label_set_text_fmt(stop_label, LV_SYMBOL_STOP);
+
+    /* Adding event callbalck */
+    lv_obj_add_event_cb(stop_button, stop_button_event_cb, LV_EVENT_CLICKED, NULL);
     lv_obj_set_style_text_color(stop_label, lv_color_hex(0xff0000), 0);
     lv_obj_center(stop_label);
 
