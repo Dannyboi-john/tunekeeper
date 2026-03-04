@@ -12,6 +12,10 @@ static bool isPlaying = true;
 static lv_obj_t * stop_label;
 static lv_obj_t * bpm_label;
 
+/* Button styling */
+static lv_style_t style_button;
+
+/* Record image import */
 LV_IMAGE_DECLARE(record);
 
 
@@ -44,6 +48,17 @@ static lv_obj_t * create_record_button(lv_obj_t * parent)
     /* Create the button */
     lv_obj_t * record_button = lv_button_create(parent);
 
+    lv_style_init(&style_button);
+
+    /* Adding the style to the button */
+    lv_obj_add_style(record_button, &style_button, LV_PART_MAIN);
+
+    lv_style_set_border_width(&style_button, 1);
+    lv_style_set_border_color(&style_button, lv_color_black());
+    lv_style_set_border_opa(&style_button, LV_OPA_50);
+    lv_obj_set_style_radius(record_button, 1, LV_PART_MAIN);
+    lv_obj_set_style_bg_color(record_button, lv_color_hex(0x322D31), LV_PART_MAIN);
+    lv_obj_set_pos(record_button, 0, 0);
 
     lv_obj_set_size(record_button, lv_pct(6), lv_pct(10));
     lv_obj_t * record_icon = lv_image_create(record_button);
@@ -54,10 +69,6 @@ static lv_obj_t * create_record_button(lv_obj_t * parent)
 
     /* Scaling the img down a little bit */
     lv_image_set_scale(record_icon, 128);
-
-    lv_obj_set_style_radius(record_button, 1, LV_PART_MAIN);
-    lv_obj_set_style_bg_color(record_button, lv_color_hex(0x322D31), LV_PART_MAIN);
-    lv_obj_set_pos(record_button, 0, 0);
 
     return record_button;
 }
@@ -71,6 +82,10 @@ static lv_obj_t * create_play_button(lv_obj_t * parent)
     /* Attach the callback */
     lv_obj_add_event_cb(play_button, btn_event_cb, LV_EVENT_CLICKED, NULL);
 
+    lv_style_init(&style_button);
+    /* Adding the style to the button */
+    lv_obj_add_style(play_button, &style_button, LV_PART_MAIN);
+
     /* Label styling */
     play_label = lv_label_create(play_button);
     lv_label_set_text_fmt(play_label, LV_SYMBOL_PLAY);
@@ -81,6 +96,9 @@ static lv_obj_t * create_play_button(lv_obj_t * parent)
     lv_obj_set_style_bg_color(play_button, lv_color_hex(0x322D31), LV_PART_MAIN);
     lv_obj_set_size(play_button, lv_pct(6), lv_pct(10));
     lv_obj_center(play_label);
+    lv_style_set_border_width(&style_button, 1);
+    lv_style_set_border_color(&style_button, lv_color_black());
+
     /* Align to the top left */
     lv_obj_set_pos(play_button, lv_pct(6), 0);
     
@@ -92,18 +110,30 @@ static lv_obj_t * create_stop_button(lv_obj_t * parent)
 {
    /* Create the button */
     lv_obj_t * stop_button = lv_button_create(parent);
+    lv_style_init(&style_button);
 
     /* Label styling */
     stop_label = lv_label_create(stop_button);
     lv_label_set_text_fmt(stop_label, LV_SYMBOL_STOP);
     lv_obj_set_style_text_color(stop_label, lv_color_hex(0xff0000), 0);
+    lv_obj_center(stop_label);
+
+    /* Adding the style to the button */
+    lv_obj_add_style(stop_button, &style_button, LV_PART_MAIN);
 
     /* Button styling */
-    lv_obj_center(stop_label);
     lv_obj_set_size(stop_button, lv_pct(6), lv_pct(10));
     lv_obj_set_style_bg_color(stop_button, lv_color_hex(0x322D31), LV_PART_MAIN);
     lv_obj_set_pos(stop_button, lv_pct(12), 0);
     lv_obj_set_style_radius(stop_button, 1, LV_PART_MAIN);
+    lv_style_set_border_width(&style_button, 1);
+    lv_style_set_border_color(&style_button, lv_color_black());
+
+    /* Removing some default styling */
+/*     lv_obj_set_style_shadow_width(stop_button, 0, LV_PART_MAIN);
+    lv_obj_set_style_outline_width(stop_button, 0, LV_PART_MAIN);
+    lv_obj_set_style_shadow_color(stop_button, lv_color_black(), LV_PART_MAIN); */
+    
     
     return stop_button;
 }
