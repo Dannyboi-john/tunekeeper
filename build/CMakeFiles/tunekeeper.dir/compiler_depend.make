@@ -1405,6 +1405,7 @@ CMakeFiles/tunekeeper.dir/ui/ui.c.o: /home/danny/tunekeeper/ui/ui.c \
   /home/danny/tunekeeper/lvgl/src/widgets/textarea/lv_textarea.h \
   /home/danny/tunekeeper/lvgl/src/widgets/tileview/lv_tileview.h \
   /home/danny/tunekeeper/lvgl/src/widgets/win/lv_win.h \
+  /home/danny/tunekeeper/ui/components/bpm_dd.h \
   /home/danny/tunekeeper/ui/components/play_button.h \
   /home/danny/tunekeeper/ui/components/stop_button.h \
   /home/danny/tunekeeper/ui/images/icons.h \
@@ -1739,6 +1740,8 @@ CMakeFiles/tunekeeper.dir/ui/ui.c.o:
 /lib/i386-linux-gnu/libXdmcp.so.6:
 
 /lib/i386-linux-gnu/libXcursor.so.1:
+
+/home/danny/tunekeeper/ui/components/bpm_dd.h:
 
 /home/danny/tunekeeper/ui/ui.c:
 

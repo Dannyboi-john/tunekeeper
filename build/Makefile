@@ -250,6 +250,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/main.c.s
 .PHONY : main.c.s
 
+ui/components/bpm_dd.o: ui/components/bpm_dd.c.o
+.PHONY : ui/components/bpm_dd.o
+
+# target to build an object file
+ui/components/bpm_dd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o
+.PHONY : ui/components/bpm_dd.c.o
+
+ui/components/bpm_dd.i: ui/components/bpm_dd.c.i
+.PHONY : ui/components/bpm_dd.i
+
+# target to preprocess a source file
+ui/components/bpm_dd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.i
+.PHONY : ui/components/bpm_dd.c.i
+
+ui/components/bpm_dd.s: ui/components/bpm_dd.c.s
+.PHONY : ui/components/bpm_dd.s
+
+# target to generate assembly for a file
+ui/components/bpm_dd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.s
+.PHONY : ui/components/bpm_dd.c.s
+
 ui/components/play_button.o: ui/components/play_button.c.o
 .PHONY : ui/components/play_button.o
 
@@ -366,6 +390,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... ui/components/bpm_dd.o"
+	@echo "... ui/components/bpm_dd.i"
+	@echo "... ui/components/bpm_dd.s"
 	@echo "... ui/components/play_button.o"
 	@echo "... ui/components/play_button.i"
 	@echo "... ui/components/play_button.s"
