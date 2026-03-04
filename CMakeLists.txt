@@ -10,7 +10,11 @@ add_subdirectory(lvgl)
 file(GLOB UI_IMAGES ui/images/*.c)
 
 # Source
-add_executable(tunekeeper main.c ui/ui.c ${UI_IMAGES})
+add_executable(tunekeeper 
+    main.c 
+    ui/ui.c 
+    ${UI_IMAGES}
+    ui/components/play_button.c)
 
 target_link_libraries(tunekeeper
     lvgl

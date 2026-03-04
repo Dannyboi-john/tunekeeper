@@ -4,6 +4,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 #include "ui/images/icons.h"
+#include "components/play_button.h"
 
 
 /* Declaration of the labels + bool + image */
@@ -18,30 +19,6 @@ static lv_style_t style_button;
 /* Record image import */
 LV_IMAGE_DECLARE(record);
 
-
-
-/* Callback function that handles play / pause click events */
-static void btn_event_cb(lv_event_t * e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-
-    if(code == LV_EVENT_CLICKED) {
-
-        if (isPaused) {
-            fprintf(stderr, "Event Fired\n");
-            lv_label_set_text_fmt(play_label
-            , LV_SYMBOL_PAUSE);
-            isPaused = !isPaused;
-
-        } else {
-            fprintf(stderr, "Event Fired\n");
-            lv_label_set_text_fmt(play_label
-            , LV_SYMBOL_PLAY);
-            isPaused = !isPaused;
-        }
-
-    }
-}
 
 static void stop_button_event_cb(lv_event_t * e)
 {
@@ -85,38 +62,6 @@ static lv_obj_t * create_record_button(lv_obj_t * parent)
     lv_image_set_scale(record_icon, 128);
 
     return record_button;
-}
-
-/* Creating separate function for play/pause */
-static lv_obj_t * create_play_button(lv_obj_t * parent)
-{
-    /* Create the button */
-    lv_obj_t * play_button = lv_button_create(parent);
-
-    /* Attach the callback */
-    lv_obj_add_event_cb(play_button, btn_event_cb, LV_EVENT_CLICKED, NULL);
-
-    lv_style_init(&style_button);
-    /* Adding the style to the button */
-    lv_obj_add_style(play_button, &style_button, LV_PART_MAIN);
-
-    /* Label styling */
-    play_label = lv_label_create(play_button);
-    lv_label_set_text_fmt(play_label, LV_SYMBOL_PLAY);
-    lv_obj_set_style_text_color(play_label, lv_color_hex(0xff0000), 0);
-
-    /* Button styling */
-    lv_obj_set_style_radius(play_button, 1, LV_PART_MAIN);
-    lv_obj_set_style_bg_color(play_button, lv_color_hex(0x322D31), LV_PART_MAIN);
-    lv_obj_set_size(play_button, lv_pct(6), lv_pct(10));
-    lv_obj_center(play_label);
-    lv_style_set_border_width(&style_button, 1);
-    lv_style_set_border_color(&style_button, lv_color_black());
-
-    /* Align to the top left */
-    lv_obj_set_pos(play_button, lv_pct(6), 0);
-    
-    return play_button;
 }
 
 

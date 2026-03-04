@@ -250,6 +250,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/main.c.s
 .PHONY : main.c.s
 
+ui/components/play_button.o: ui/components/play_button.c.o
+.PHONY : ui/components/play_button.o
+
+# target to build an object file
+ui/components/play_button.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o
+.PHONY : ui/components/play_button.c.o
+
+ui/components/play_button.i: ui/components/play_button.c.i
+.PHONY : ui/components/play_button.i
+
+# target to preprocess a source file
+ui/components/play_button.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/play_button.c.i
+.PHONY : ui/components/play_button.c.i
+
+ui/components/play_button.s: ui/components/play_button.c.s
+.PHONY : ui/components/play_button.s
+
+# target to generate assembly for a file
+ui/components/play_button.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/play_button.c.s
+.PHONY : ui/components/play_button.c.s
+
 ui/images/record.o: ui/images/record.c.o
 .PHONY : ui/images/record.o
 
@@ -318,6 +342,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... ui/components/play_button.o"
+	@echo "... ui/components/play_button.i"
+	@echo "... ui/components/play_button.s"
 	@echo "... ui/images/record.o"
 	@echo "... ui/images/record.i"
 	@echo "... ui/images/record.s"

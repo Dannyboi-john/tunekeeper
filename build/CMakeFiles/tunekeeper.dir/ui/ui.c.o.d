@@ -472,4 +472,5 @@ CMakeFiles/tunekeeper.dir/ui/ui.c.o: /home/danny/tunekeeper/ui/ui.c \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /home/danny/tunekeeper/ui/images/icons.h \
- /home/danny/tunekeeper/lvgl/lvgl.h
+ /home/danny/tunekeeper/lvgl/lvgl.h \
+ /home/danny/tunekeeper/ui/components/play_button.h
