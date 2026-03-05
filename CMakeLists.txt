@@ -17,7 +17,8 @@ add_executable(tunekeeper
     ui/components/play_button.c
     ui/components/stop_button.c
     ui/components/bpm_dd.c
-    ui/components/record_button.c)
+    ui/components/record_button.c
+    ui/components/settings_button.c)
 
 target_link_libraries(tunekeeper
     lvgl

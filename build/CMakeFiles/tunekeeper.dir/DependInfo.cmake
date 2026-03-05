@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/danny/tunekeeper/ui/components/bpm_dd.c" "CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o.d"
   "/home/danny/tunekeeper/ui/components/play_button.c" "CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o.d"
   "/home/danny/tunekeeper/ui/components/record_button.c" "CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o.d"
+  "/home/danny/tunekeeper/ui/components/settings_button.c" "CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o.d"
   "/home/danny/tunekeeper/ui/components/stop_button.c" "CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o.d"
   "/home/danny/tunekeeper/ui/images/record.c" "CMakeFiles/tunekeeper.dir/ui/images/record.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/images/record.c.o.d"
   "/home/danny/tunekeeper/ui/ui.c" "CMakeFiles/tunekeeper.dir/ui/ui.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/ui.c.o.d"
