@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o.d"
   "CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o"
   "CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o.d"
+  "CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o"
+  "CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o.d"
   "CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o"
   "CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o.d"
   "CMakeFiles/tunekeeper.dir/ui/images/record.c.o"

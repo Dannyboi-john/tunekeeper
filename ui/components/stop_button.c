@@ -13,7 +13,6 @@ static void stop_button_event_cb(lv_event_t * e)
 
     if (lv_event_get_code(e) == LV_EVENT_CLICKED && !state->is_paused) {
         state->is_paused = true;
-        fprintf(stderr, "stopped\n");
 
         // Refresh the play button label
         if (state->play_button) {
