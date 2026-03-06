@@ -480,4 +480,6 @@ CMakeFiles/tunekeeper.dir/ui/ui.c.o: /home/danny/tunekeeper/ui/ui.c \
  /home/danny/tunekeeper/lvgl/lvgl.h \
  /home/danny/tunekeeper/ui/components/record_button.h \
  /home/danny/tunekeeper/ui/components/settings_button.h \
+ /home/danny/tunekeeper/ui/ui_utils.h \
+ /home/danny/tunekeeper/ui/../lvgl/lvgl.h \
  /home/danny/tunekeeper/app_state.h
