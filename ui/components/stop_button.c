@@ -30,10 +30,10 @@ lv_obj_t * create_stop_button(lv_obj_t * parent, app_state_t * state)
     /* Label styling */
     lv_obj_t * stop_label = lv_label_create(stop_button);
     lv_label_set_text_fmt(stop_label, LV_SYMBOL_STOP);
+    lv_obj_set_style_text_color(stop_label, lv_color_hex(0xff0000), 0);
 
     /* Adding event callbalck */
     lv_obj_add_event_cb(stop_button, stop_button_event_cb, LV_EVENT_CLICKED, state);
-    lv_obj_set_style_text_color(stop_label, lv_color_hex(0xff0000), 0);
     lv_obj_center(stop_label);
 
     /* Adding the style to the button */
