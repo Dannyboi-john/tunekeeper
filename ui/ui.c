@@ -34,17 +34,15 @@ lv_obj_t *create_track_list(lv_obj_t * parent)
     lv_obj_set_style_bg_color(track_list_area, lv_color_hex(0x373642), LV_PART_MAIN);
     remove_padding(track_list_area);
 
-    // Create Track button
-
-    lv_style_t style_track_button;
-    lv_style_init(&style_track_button);
-
+    // Create & style create track button
     lv_obj_t *create_track_button = lv_button_create(track_list_area);
     lv_obj_set_size(create_track_button, LV_PCT(30), 100);
-    lv_obj_t *create_track_button_label = lv_label_create(create_track_button);
-    lv_label_set_text(create_track_button_label, LV_SYMBOL_PLUS);
     lv_obj_set_style_radius(create_track_button, 1, LV_PART_MAIN);
     lv_obj_set_style_bg_color(create_track_button, lv_color_hex(0x322D31), LV_PART_MAIN);
+
+    // Create & style label for create track button
+    lv_obj_t *create_track_button_label = lv_label_create(create_track_button);
+    lv_label_set_text(create_track_button_label, LV_SYMBOL_PLUS);
     lv_obj_set_style_text_color(create_track_button_label, lv_color_hex(0xff0000), 0);
     lv_obj_center(create_track_button_label);
 
@@ -107,7 +105,6 @@ lv_obj_t* create_track(lv_obj_t *parent, const char *name) {
 
     return track;
 }
-
 
 
 void ui_init(void)
