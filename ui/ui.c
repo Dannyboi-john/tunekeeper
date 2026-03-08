@@ -14,14 +14,18 @@
 
 LV_IMAGE_DECLARE(record);
 
-/* static void create_track_cb(lv_event_t * e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    lv_obj_t *  = lv_event_get_target_obj(e);
-    if (code == LV_EVENT_CLICKED) {
 
-    }
-} */
+lv_obj_t* create_track(lv_obj_t *parent, const char *name);
+
+static void create_track_button_cb(lv_event_t * e)
+{
+    printf("create_track_button clicked!");
+    lv_obj_t *btn = lv_event_get_target(e);
+    lv_obj_t *parent = (lv_obj_t *)lv_event_get_user_data(e);
+    create_track(parent, "New Track");
+
+    lv_obj_move_to_index(btn, -1);
+}
 
 
 lv_obj_t *create_track_list(lv_obj_t * parent)
@@ -45,6 +49,7 @@ lv_obj_t *create_track_list(lv_obj_t * parent)
     lv_label_set_text(create_track_button_label, LV_SYMBOL_PLUS);
     lv_obj_set_style_text_color(create_track_button_label, lv_color_hex(0xff0000), 0);
     lv_obj_center(create_track_button_label);
+    lv_obj_add_event_cb(create_track_button, create_track_button_cb, LV_EVENT_CLICKED, track_list_area);
 
     return track_list_area;
 }
@@ -126,7 +131,6 @@ void ui_init(void)
 
     app_state.play_button = create_play_button(screen, &app_state);
 
-    // lv_obj_t * play_button = create_play_button(screen, &app_state);
     lv_obj_t * stop_button = create_stop_button(screen, &app_state);
     lv_obj_t * bpm_dd = create_bpm_dropdown(screen);
     lv_obj_t * record_button = create_record_button(screen);
