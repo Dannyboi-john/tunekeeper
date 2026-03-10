@@ -184,6 +184,34 @@ CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/header_components/settings_button.c -o CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.s
 
+CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o: CMakeFiles/tunekeeper.dir/flags.make
+CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o: /home/danny/tunekeeper/ui/tracklist_components/tl_area.c
+CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o -MF CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o.d -o CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o -c /home/danny/tunekeeper/ui/tracklist_components/tl_area.c
+
+CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/tracklist_components/tl_area.c > CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.i
+
+CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/tracklist_components/tl_area.c -o CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.s
+
+CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o: CMakeFiles/tunekeeper.dir/flags.make
+CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o: /home/danny/tunekeeper/ui/tracklist_components/track.c
+CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o -MF CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o.d -o CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o -c /home/danny/tunekeeper/ui/tracklist_components/track.c
+
+CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/tracklist_components/track.c > CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.i
+
+CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/tracklist_components/track.c -o CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.s
+
 # Object files for target tunekeeper
 tunekeeper_OBJECTS = \
 "CMakeFiles/tunekeeper.dir/main.c.o" \
@@ -193,7 +221,9 @@ tunekeeper_OBJECTS = \
 "CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o" \
 "CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o" \
 "CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o" \
-"CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o"
+"CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o" \
+"CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o" \
+"CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o"
 
 # External object files for target tunekeeper
 tunekeeper_EXTERNAL_OBJECTS =
@@ -206,6 +236,8 @@ tunekeeper: CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o
 tunekeeper: CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o
 tunekeeper: CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o
 tunekeeper: CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o
+tunekeeper: CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o
+tunekeeper: CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o
 tunekeeper: CMakeFiles/tunekeeper.dir/build.make
 tunekeeper: CMakeFiles/tunekeeper.dir/compiler_depend.ts
 tunekeeper: lvgl/lib/liblvgl.a
@@ -218,7 +250,7 @@ tunekeeper: lvgl/lib/liblvgl_thorvg.a
 tunekeeper: lvgl/lib/liblvgl_examples.a
 tunekeeper: lvgl/lib/liblvgl_demos.a
 tunekeeper: CMakeFiles/tunekeeper.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable tunekeeper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable tunekeeper"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tunekeeper.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

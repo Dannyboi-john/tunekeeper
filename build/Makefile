@@ -394,6 +394,54 @@ ui/images/record.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/images/record.c.s
 .PHONY : ui/images/record.c.s
 
+ui/tracklist_components/tl_area.o: ui/tracklist_components/tl_area.c.o
+.PHONY : ui/tracklist_components/tl_area.o
+
+# target to build an object file
+ui/tracklist_components/tl_area.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o
+.PHONY : ui/tracklist_components/tl_area.c.o
+
+ui/tracklist_components/tl_area.i: ui/tracklist_components/tl_area.c.i
+.PHONY : ui/tracklist_components/tl_area.i
+
+# target to preprocess a source file
+ui/tracklist_components/tl_area.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.i
+.PHONY : ui/tracklist_components/tl_area.c.i
+
+ui/tracklist_components/tl_area.s: ui/tracklist_components/tl_area.c.s
+.PHONY : ui/tracklist_components/tl_area.s
+
+# target to generate assembly for a file
+ui/tracklist_components/tl_area.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.s
+.PHONY : ui/tracklist_components/tl_area.c.s
+
+ui/tracklist_components/track.o: ui/tracklist_components/track.c.o
+.PHONY : ui/tracklist_components/track.o
+
+# target to build an object file
+ui/tracklist_components/track.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o
+.PHONY : ui/tracklist_components/track.c.o
+
+ui/tracklist_components/track.i: ui/tracklist_components/track.c.i
+.PHONY : ui/tracklist_components/track.i
+
+# target to preprocess a source file
+ui/tracklist_components/track.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.i
+.PHONY : ui/tracklist_components/track.c.i
+
+ui/tracklist_components/track.s: ui/tracklist_components/track.c.s
+.PHONY : ui/tracklist_components/track.s
+
+# target to generate assembly for a file
+ui/tracklist_components/track.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.s
+.PHONY : ui/tracklist_components/track.c.s
+
 ui/ui.o: ui/ui.c.o
 .PHONY : ui/ui.o
 
@@ -456,6 +504,12 @@ help:
 	@echo "... ui/images/record.o"
 	@echo "... ui/images/record.i"
 	@echo "... ui/images/record.s"
+	@echo "... ui/tracklist_components/tl_area.o"
+	@echo "... ui/tracklist_components/tl_area.i"
+	@echo "... ui/tracklist_components/tl_area.s"
+	@echo "... ui/tracklist_components/track.o"
+	@echo "... ui/tracklist_components/track.i"
+	@echo "... ui/tracklist_components/track.s"
 	@echo "... ui/ui.o"
 	@echo "... ui/ui.i"
 	@echo "... ui/ui.s"
