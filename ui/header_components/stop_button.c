@@ -2,7 +2,7 @@
 #include "stop_button.h"
 #include <stdio.h>
 #include <string.h>
-#include "../components/play_button.h"
+#include "../header_components/play_button.h"
 #include "../app_state.h"
 
 static lv_style_t style_button;

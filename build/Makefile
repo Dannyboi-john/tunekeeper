@@ -250,125 +250,125 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/main.c.s
 .PHONY : main.c.s
 
-ui/components/bpm_dd.o: ui/components/bpm_dd.c.o
-.PHONY : ui/components/bpm_dd.o
+ui/header_components/bpm_dd.o: ui/header_components/bpm_dd.c.o
+.PHONY : ui/header_components/bpm_dd.o
 
 # target to build an object file
-ui/components/bpm_dd.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o
-.PHONY : ui/components/bpm_dd.c.o
+ui/header_components/bpm_dd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o
+.PHONY : ui/header_components/bpm_dd.c.o
 
-ui/components/bpm_dd.i: ui/components/bpm_dd.c.i
-.PHONY : ui/components/bpm_dd.i
+ui/header_components/bpm_dd.i: ui/header_components/bpm_dd.c.i
+.PHONY : ui/header_components/bpm_dd.i
 
 # target to preprocess a source file
-ui/components/bpm_dd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.i
-.PHONY : ui/components/bpm_dd.c.i
+ui/header_components/bpm_dd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.i
+.PHONY : ui/header_components/bpm_dd.c.i
 
-ui/components/bpm_dd.s: ui/components/bpm_dd.c.s
-.PHONY : ui/components/bpm_dd.s
+ui/header_components/bpm_dd.s: ui/header_components/bpm_dd.c.s
+.PHONY : ui/header_components/bpm_dd.s
 
 # target to generate assembly for a file
-ui/components/bpm_dd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.s
-.PHONY : ui/components/bpm_dd.c.s
+ui/header_components/bpm_dd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.s
+.PHONY : ui/header_components/bpm_dd.c.s
 
-ui/components/play_button.o: ui/components/play_button.c.o
-.PHONY : ui/components/play_button.o
+ui/header_components/play_button.o: ui/header_components/play_button.c.o
+.PHONY : ui/header_components/play_button.o
 
 # target to build an object file
-ui/components/play_button.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o
-.PHONY : ui/components/play_button.c.o
+ui/header_components/play_button.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o
+.PHONY : ui/header_components/play_button.c.o
 
-ui/components/play_button.i: ui/components/play_button.c.i
-.PHONY : ui/components/play_button.i
+ui/header_components/play_button.i: ui/header_components/play_button.c.i
+.PHONY : ui/header_components/play_button.i
 
 # target to preprocess a source file
-ui/components/play_button.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/play_button.c.i
-.PHONY : ui/components/play_button.c.i
+ui/header_components/play_button.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.i
+.PHONY : ui/header_components/play_button.c.i
 
-ui/components/play_button.s: ui/components/play_button.c.s
-.PHONY : ui/components/play_button.s
+ui/header_components/play_button.s: ui/header_components/play_button.c.s
+.PHONY : ui/header_components/play_button.s
 
 # target to generate assembly for a file
-ui/components/play_button.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/play_button.c.s
-.PHONY : ui/components/play_button.c.s
+ui/header_components/play_button.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.s
+.PHONY : ui/header_components/play_button.c.s
 
-ui/components/record_button.o: ui/components/record_button.c.o
-.PHONY : ui/components/record_button.o
+ui/header_components/record_button.o: ui/header_components/record_button.c.o
+.PHONY : ui/header_components/record_button.o
 
 # target to build an object file
-ui/components/record_button.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o
-.PHONY : ui/components/record_button.c.o
+ui/header_components/record_button.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o
+.PHONY : ui/header_components/record_button.c.o
 
-ui/components/record_button.i: ui/components/record_button.c.i
-.PHONY : ui/components/record_button.i
+ui/header_components/record_button.i: ui/header_components/record_button.c.i
+.PHONY : ui/header_components/record_button.i
 
 # target to preprocess a source file
-ui/components/record_button.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/record_button.c.i
-.PHONY : ui/components/record_button.c.i
+ui/header_components/record_button.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.i
+.PHONY : ui/header_components/record_button.c.i
 
-ui/components/record_button.s: ui/components/record_button.c.s
-.PHONY : ui/components/record_button.s
+ui/header_components/record_button.s: ui/header_components/record_button.c.s
+.PHONY : ui/header_components/record_button.s
 
 # target to generate assembly for a file
-ui/components/record_button.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/record_button.c.s
-.PHONY : ui/components/record_button.c.s
+ui/header_components/record_button.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.s
+.PHONY : ui/header_components/record_button.c.s
 
-ui/components/settings_button.o: ui/components/settings_button.c.o
-.PHONY : ui/components/settings_button.o
+ui/header_components/settings_button.o: ui/header_components/settings_button.c.o
+.PHONY : ui/header_components/settings_button.o
 
 # target to build an object file
-ui/components/settings_button.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o
-.PHONY : ui/components/settings_button.c.o
+ui/header_components/settings_button.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o
+.PHONY : ui/header_components/settings_button.c.o
 
-ui/components/settings_button.i: ui/components/settings_button.c.i
-.PHONY : ui/components/settings_button.i
+ui/header_components/settings_button.i: ui/header_components/settings_button.c.i
+.PHONY : ui/header_components/settings_button.i
 
 # target to preprocess a source file
-ui/components/settings_button.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.i
-.PHONY : ui/components/settings_button.c.i
+ui/header_components/settings_button.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.i
+.PHONY : ui/header_components/settings_button.c.i
 
-ui/components/settings_button.s: ui/components/settings_button.c.s
-.PHONY : ui/components/settings_button.s
+ui/header_components/settings_button.s: ui/header_components/settings_button.c.s
+.PHONY : ui/header_components/settings_button.s
 
 # target to generate assembly for a file
-ui/components/settings_button.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.s
-.PHONY : ui/components/settings_button.c.s
+ui/header_components/settings_button.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.s
+.PHONY : ui/header_components/settings_button.c.s
 
-ui/components/stop_button.o: ui/components/stop_button.c.o
-.PHONY : ui/components/stop_button.o
+ui/header_components/stop_button.o: ui/header_components/stop_button.c.o
+.PHONY : ui/header_components/stop_button.o
 
 # target to build an object file
-ui/components/stop_button.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o
-.PHONY : ui/components/stop_button.c.o
+ui/header_components/stop_button.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o
+.PHONY : ui/header_components/stop_button.c.o
 
-ui/components/stop_button.i: ui/components/stop_button.c.i
-.PHONY : ui/components/stop_button.i
+ui/header_components/stop_button.i: ui/header_components/stop_button.c.i
+.PHONY : ui/header_components/stop_button.i
 
 # target to preprocess a source file
-ui/components/stop_button.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.i
-.PHONY : ui/components/stop_button.c.i
+ui/header_components/stop_button.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.i
+.PHONY : ui/header_components/stop_button.c.i
 
-ui/components/stop_button.s: ui/components/stop_button.c.s
-.PHONY : ui/components/stop_button.s
+ui/header_components/stop_button.s: ui/header_components/stop_button.c.s
+.PHONY : ui/header_components/stop_button.s
 
 # target to generate assembly for a file
-ui/components/stop_button.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.s
-.PHONY : ui/components/stop_button.c.s
+ui/header_components/stop_button.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.s
+.PHONY : ui/header_components/stop_button.c.s
 
 ui/images/record.o: ui/images/record.c.o
 .PHONY : ui/images/record.o
@@ -438,21 +438,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... ui/components/bpm_dd.o"
-	@echo "... ui/components/bpm_dd.i"
-	@echo "... ui/components/bpm_dd.s"
-	@echo "... ui/components/play_button.o"
-	@echo "... ui/components/play_button.i"
-	@echo "... ui/components/play_button.s"
-	@echo "... ui/components/record_button.o"
-	@echo "... ui/components/record_button.i"
-	@echo "... ui/components/record_button.s"
-	@echo "... ui/components/settings_button.o"
-	@echo "... ui/components/settings_button.i"
-	@echo "... ui/components/settings_button.s"
-	@echo "... ui/components/stop_button.o"
-	@echo "... ui/components/stop_button.i"
-	@echo "... ui/components/stop_button.s"
+	@echo "... ui/header_components/bpm_dd.o"
+	@echo "... ui/header_components/bpm_dd.i"
+	@echo "... ui/header_components/bpm_dd.s"
+	@echo "... ui/header_components/play_button.o"
+	@echo "... ui/header_components/play_button.i"
+	@echo "... ui/header_components/play_button.s"
+	@echo "... ui/header_components/record_button.o"
+	@echo "... ui/header_components/record_button.i"
+	@echo "... ui/header_components/record_button.s"
+	@echo "... ui/header_components/settings_button.o"
+	@echo "... ui/header_components/settings_button.i"
+	@echo "... ui/header_components/settings_button.s"
+	@echo "... ui/header_components/stop_button.o"
+	@echo "... ui/header_components/stop_button.i"
+	@echo "... ui/header_components/stop_button.s"
 	@echo "... ui/images/record.o"
 	@echo "... ui/images/record.i"
 	@echo "... ui/images/record.s"

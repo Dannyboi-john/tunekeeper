@@ -114,86 +114,86 @@ CMakeFiles/tunekeeper.dir/ui/images/record.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/images/record.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/images/record.c -o CMakeFiles/tunekeeper.dir/ui/images/record.c.s
 
-CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o: CMakeFiles/tunekeeper.dir/flags.make
-CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o: /home/danny/tunekeeper/ui/components/play_button.c
-CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o -MF CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o.d -o CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o -c /home/danny/tunekeeper/ui/components/play_button.c
+CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o: CMakeFiles/tunekeeper.dir/flags.make
+CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o: /home/danny/tunekeeper/ui/header_components/play_button.c
+CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o -MF CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o.d -o CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o -c /home/danny/tunekeeper/ui/header_components/play_button.c
 
-CMakeFiles/tunekeeper.dir/ui/components/play_button.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/components/play_button.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/components/play_button.c > CMakeFiles/tunekeeper.dir/ui/components/play_button.c.i
+CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/header_components/play_button.c > CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.i
 
-CMakeFiles/tunekeeper.dir/ui/components/play_button.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/components/play_button.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/components/play_button.c -o CMakeFiles/tunekeeper.dir/ui/components/play_button.c.s
+CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/header_components/play_button.c -o CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.s
 
-CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o: CMakeFiles/tunekeeper.dir/flags.make
-CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o: /home/danny/tunekeeper/ui/components/stop_button.c
-CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o -MF CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o.d -o CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o -c /home/danny/tunekeeper/ui/components/stop_button.c
+CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o: CMakeFiles/tunekeeper.dir/flags.make
+CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o: /home/danny/tunekeeper/ui/header_components/stop_button.c
+CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o -MF CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o.d -o CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o -c /home/danny/tunekeeper/ui/header_components/stop_button.c
 
-CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/components/stop_button.c > CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.i
+CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/header_components/stop_button.c > CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.i
 
-CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/components/stop_button.c -o CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.s
+CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/header_components/stop_button.c -o CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.s
 
-CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o: CMakeFiles/tunekeeper.dir/flags.make
-CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o: /home/danny/tunekeeper/ui/components/bpm_dd.c
-CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o -MF CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o.d -o CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o -c /home/danny/tunekeeper/ui/components/bpm_dd.c
+CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o: CMakeFiles/tunekeeper.dir/flags.make
+CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o: /home/danny/tunekeeper/ui/header_components/bpm_dd.c
+CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o -MF CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o.d -o CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o -c /home/danny/tunekeeper/ui/header_components/bpm_dd.c
 
-CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/components/bpm_dd.c > CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.i
+CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/header_components/bpm_dd.c > CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.i
 
-CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/components/bpm_dd.c -o CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.s
+CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/header_components/bpm_dd.c -o CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.s
 
-CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o: CMakeFiles/tunekeeper.dir/flags.make
-CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o: /home/danny/tunekeeper/ui/components/record_button.c
-CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o -MF CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o.d -o CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o -c /home/danny/tunekeeper/ui/components/record_button.c
+CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o: CMakeFiles/tunekeeper.dir/flags.make
+CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o: /home/danny/tunekeeper/ui/header_components/record_button.c
+CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o -MF CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o.d -o CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o -c /home/danny/tunekeeper/ui/header_components/record_button.c
 
-CMakeFiles/tunekeeper.dir/ui/components/record_button.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/components/record_button.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/components/record_button.c > CMakeFiles/tunekeeper.dir/ui/components/record_button.c.i
+CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/header_components/record_button.c > CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.i
 
-CMakeFiles/tunekeeper.dir/ui/components/record_button.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/components/record_button.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/components/record_button.c -o CMakeFiles/tunekeeper.dir/ui/components/record_button.c.s
+CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/header_components/record_button.c -o CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.s
 
-CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o: CMakeFiles/tunekeeper.dir/flags.make
-CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o: /home/danny/tunekeeper/ui/components/settings_button.c
-CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o -MF CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o.d -o CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o -c /home/danny/tunekeeper/ui/components/settings_button.c
+CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o: CMakeFiles/tunekeeper.dir/flags.make
+CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o: /home/danny/tunekeeper/ui/header_components/settings_button.c
+CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o: CMakeFiles/tunekeeper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/danny/tunekeeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o -MF CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o.d -o CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o -c /home/danny/tunekeeper/ui/header_components/settings_button.c
 
-CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/components/settings_button.c > CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.i
+CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danny/tunekeeper/ui/header_components/settings_button.c > CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.i
 
-CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/components/settings_button.c -o CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.s
+CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danny/tunekeeper/ui/header_components/settings_button.c -o CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.s
 
 # Object files for target tunekeeper
 tunekeeper_OBJECTS = \
 "CMakeFiles/tunekeeper.dir/main.c.o" \
 "CMakeFiles/tunekeeper.dir/ui/ui.c.o" \
 "CMakeFiles/tunekeeper.dir/ui/images/record.c.o" \
-"CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o" \
-"CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o" \
-"CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o" \
-"CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o" \
-"CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o"
+"CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o" \
+"CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o" \
+"CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o" \
+"CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o" \
+"CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o"
 
 # External object files for target tunekeeper
 tunekeeper_EXTERNAL_OBJECTS =
@@ -201,11 +201,11 @@ tunekeeper_EXTERNAL_OBJECTS =
 tunekeeper: CMakeFiles/tunekeeper.dir/main.c.o
 tunekeeper: CMakeFiles/tunekeeper.dir/ui/ui.c.o
 tunekeeper: CMakeFiles/tunekeeper.dir/ui/images/record.c.o
-tunekeeper: CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o
-tunekeeper: CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o
-tunekeeper: CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o
-tunekeeper: CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o
-tunekeeper: CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o
+tunekeeper: CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o
+tunekeeper: CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o
+tunekeeper: CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o
+tunekeeper: CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o
+tunekeeper: CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o
 tunekeeper: CMakeFiles/tunekeeper.dir/build.make
 tunekeeper: CMakeFiles/tunekeeper.dir/compiler_depend.ts
 tunekeeper: lvgl/lib/liblvgl.a

@@ -5,11 +5,11 @@ tunekeeper: \
   CMakeFiles/tunekeeper.dir/main.c.o \
   CMakeFiles/tunekeeper.dir/ui/ui.c.o \
   CMakeFiles/tunekeeper.dir/ui/images/record.c.o \
-  CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o \
-  CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o \
-  CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o \
-  CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o \
-  CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o \
+  CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o \
+  CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o \
+  CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o \
+  CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o \
+  CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o \
   lvgl/lib/liblvgl.a \
   /usr/lib/x86_64-linux-gnu/libSDL2.so \
   lvgl/lib/liblvgl_thorvg.a \
@@ -165,15 +165,15 @@ CMakeFiles/tunekeeper.dir/ui/ui.c.o:
 
 CMakeFiles/tunekeeper.dir/ui/images/record.c.o:
 
-CMakeFiles/tunekeeper.dir/ui/components/play_button.c.o:
+CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o:
 
-CMakeFiles/tunekeeper.dir/ui/components/stop_button.c.o:
+CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o:
 
-CMakeFiles/tunekeeper.dir/ui/components/bpm_dd.c.o:
+CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o:
 
-CMakeFiles/tunekeeper.dir/ui/components/record_button.c.o:
+CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o:
 
-CMakeFiles/tunekeeper.dir/ui/components/settings_button.c.o:
+CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o:
 
 lvgl/lib/liblvgl.a:
 

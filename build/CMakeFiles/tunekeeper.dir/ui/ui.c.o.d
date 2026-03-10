@@ -473,13 +473,13 @@ CMakeFiles/tunekeeper.dir/ui/ui.c.o: /home/danny/tunekeeper/ui/ui.c \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /home/danny/tunekeeper/ui/images/icons.h \
  /home/danny/tunekeeper/lvgl/lvgl.h \
- /home/danny/tunekeeper/ui/components/play_button.h \
+ /home/danny/tunekeeper/ui/header_components/play_button.h \
  /home/danny/tunekeeper/app_state.h /home/danny/tunekeeper/lvgl/lvgl.h \
- /home/danny/tunekeeper/ui/components/stop_button.h \
- /home/danny/tunekeeper/ui/components/bpm_dd.h \
+ /home/danny/tunekeeper/ui/header_components/stop_button.h \
+ /home/danny/tunekeeper/ui/header_components/bpm_dd.h \
  /home/danny/tunekeeper/lvgl/lvgl.h \
- /home/danny/tunekeeper/ui/components/record_button.h \
- /home/danny/tunekeeper/ui/components/settings_button.h \
+ /home/danny/tunekeeper/ui/header_components/record_button.h \
+ /home/danny/tunekeeper/ui/header_components/settings_button.h \
  /home/danny/tunekeeper/ui/ui_utils.h \
  /home/danny/tunekeeper/ui/../lvgl/lvgl.h \
  /home/danny/tunekeeper/app_state.h

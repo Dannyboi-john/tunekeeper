@@ -14,11 +14,11 @@ add_executable(tunekeeper
     main.c 
     ui/ui.c 
     ${UI_IMAGES}
-    ui/components/play_button.c
-    ui/components/stop_button.c
-    ui/components/bpm_dd.c
-    ui/components/record_button.c
-    ui/components/settings_button.c)
+    ui/header_components/play_button.c
+    ui/header_components/stop_button.c
+    ui/header_components/bpm_dd.c
+    ui/header_components/record_button.c
+    ui/header_components/settings_button.c)
 
 target_link_libraries(tunekeeper
     lvgl

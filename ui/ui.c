@@ -4,11 +4,11 @@
 #include <stdbool.h>
 #include <unistd.h>
 #include "ui/images/icons.h"
-#include "components/play_button.h"
-#include "components/stop_button.h"
-#include "components/bpm_dd.h"
-#include "components/record_button.h"
-#include "components/settings_button.h"
+#include "header_components/play_button.h"
+#include "header_components/stop_button.h"
+#include "header_components/bpm_dd.h"
+#include "header_components/record_button.h"
+#include "header_components/settings_button.h"
 #include "ui_utils.h"
 #include "app_state.h"
 
@@ -19,7 +19,6 @@ lv_obj_t* create_track(lv_obj_t *parent, const char *name);
 
 static void create_track_button_cb(lv_event_t * e)
 {
-    printf("create_track_button clicked!");
     lv_obj_t *btn = lv_event_get_target(e);
     lv_obj_t *parent = (lv_obj_t *)lv_event_get_user_data(e);
     create_track(parent, "New Track");
