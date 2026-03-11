@@ -20,6 +20,7 @@ lv_obj_t *create_track_list(lv_obj_t * parent)
     lv_obj_align(track_list_area, LV_ALIGN_BOTTOM_MID, 0, 0);
     lv_obj_set_style_bg_color(track_list_area, lv_color_hex(0x373642), LV_PART_MAIN);
     lv_obj_set_style_pad_all(track_list_area, 0, LV_PART_MAIN);
+    lv_obj_set_style_border_width(track_list_area, 0, LV_PART_MAIN);
 
     // Create & style create track button
     lv_obj_t *create_track_button = lv_button_create(track_list_area);
