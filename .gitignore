@@ -1,9 +1,9 @@
 # Build folders
-/build/
-/CMakeFiles/
-/CmakeCache.txt
-/cmake-build-debug/
-/cmake-build-release/
+build/
+CMakeFiles/
+CmakeCache.txt
+cmake-build-debug/
+cmake-build-release/
 cmake_install.cmake
 Makefile
 
