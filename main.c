@@ -6,11 +6,11 @@
 
 int main(void)
 {
-    /* Initialize LVGL */
+    // Initialize LVGL
     lv_init();
     fflush(stdout);
 
-    /* Initialize SDL display */
+    // Initialize SDL display
     lv_display_t * disp = lv_sdl_window_create(800, 480);
     ui_init();
 

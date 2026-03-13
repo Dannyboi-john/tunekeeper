@@ -18,6 +18,7 @@
 LV_IMAGE_DECLARE(record);
 
 
+// Main function that creates the UI
 void ui_init(void)
 {
     lv_obj_t * screen = lv_screen_active();
@@ -35,8 +36,12 @@ void ui_init(void)
         .play_button = NULL
     };
 
+
+    // State management for the play button
     app_state.play_button = create_play_button(screen, &app_state);
 
+
+    // Header components
     lv_obj_t * stop_button = create_stop_button(screen, &app_state);
     lv_obj_t * bpm_dd = create_bpm_dropdown(screen);
     lv_obj_t * record_button = create_record_button(screen);

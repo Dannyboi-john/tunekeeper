@@ -4,6 +4,7 @@
 
 lv_obj_t* create_track(lv_obj_t *parent, const char *name) {
 
+    // Instantiates & styles the track
     lv_obj_t *track = lv_obj_create(parent);
     lv_obj_set_size(track, LV_PCT(30), 100);
     lv_obj_set_flex_flow(track, LV_FLEX_FLOW_COLUMN);

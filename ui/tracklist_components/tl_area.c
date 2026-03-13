@@ -2,6 +2,8 @@
 #include "tl_area.h"
 #include "track.h"
 
+
+// Logic for "Create track" button
 void create_track_button_cb(lv_event_t * e)
 {
     lv_obj_t *btn = lv_event_get_target(e);
@@ -11,6 +13,8 @@ void create_track_button_cb(lv_event_t * e)
     lv_obj_move_to_index(btn, -1);
 }
 
+
+// Track list area component
 lv_obj_t *create_track_list(lv_obj_t * parent)
 {
     lv_obj_t *track_list_area = lv_obj_create(lv_screen_active());
