@@ -15,6 +15,7 @@
 #include "app_state.h"
 
 
+// Imports the record icon / image
 LV_IMAGE_DECLARE(record);
 
 
