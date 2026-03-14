@@ -31,14 +31,15 @@ lv_obj_t* create_track(lv_obj_t *parent, const char *name) {
     lv_label_set_text(arm_label, LV_SYMBOL_AUDIO);
     lv_obj_center(arm_label);
     lv_obj_set_style_radius(arm_button, 1, LV_PART_MAIN);
+    lv_obj_set_style_bg_color(arm_button, lv_color_hex(0x8a9ab5), LV_PART_MAIN);
 
     // Track name button
     lv_obj_t *name_button = lv_button_create(button_row);
-    lv_obj_set_size(name_button, 120, 40);
     lv_obj_t *name_label = lv_label_create(name_button);
-    lv_label_set_text(name_label, "Track 1");
-    lv_obj_center(name_label);
+    lv_label_set_text(name_label, name);
+    lv_obj_set_size(name_button, 120, 40);
     lv_obj_set_style_radius(name_button, 1, LV_PART_MAIN);
+    lv_obj_set_style_bg_color(name_button, lv_color_hex(0x8a9ab5), LV_PART_MAIN);
 
     // Delete button
     lv_obj_t *delete_button = lv_button_create(button_row);
@@ -47,6 +48,7 @@ lv_obj_t* create_track(lv_obj_t *parent, const char *name) {
     lv_label_set_text(delete_label, LV_SYMBOL_TRASH);
     lv_obj_center(delete_label);
     lv_obj_set_style_radius(delete_button, 1, LV_PART_MAIN);
+    lv_obj_set_style_bg_color(delete_button, lv_color_hex(0x8a9ab5), LV_PART_MAIN);
 
     // Row 2: volume slider
     lv_obj_t *slider_row = lv_obj_create(track);
@@ -62,5 +64,9 @@ lv_obj_t* create_track(lv_obj_t *parent, const char *name) {
     lv_obj_set_style_pad_all(slider_row, 0, LV_PART_MAIN);
     lv_obj_set_style_bg_color(slider_row, lv_color_hex(0x3E424B), LV_PART_MAIN);
     lv_obj_set_style_border_width(slider_row, 0, LV_PART_MAIN);
+    lv_obj_set_style_bg_color(slider, lv_color_hex(0x8a9ab5), LV_PART_MAIN);
+    lv_obj_set_style_bg_color(slider, lv_color_hex(0x8a9ab5), LV_PART_KNOB);
+    lv_obj_set_style_bg_color(slider, lv_color_hex(0x8a9ab5), LV_PART_INDICATOR);
+
     return track;
 }
