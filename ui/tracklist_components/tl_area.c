@@ -11,9 +11,6 @@ void create_track_button_cb(lv_event_t * e)
     lv_obj_t *parent = (lv_obj_t *)lv_event_get_user_data(e);
     char track_label[32];
     snprintf(track_label, sizeof(track_label), "Track %d", lv_obj_get_index(btn) + 1);
-
-    const int index = lv_obj_get_index(btn);
-    printf("%d\n", index);
     create_track(parent, track_label);
 
     lv_obj_move_to_index(btn, -1);
