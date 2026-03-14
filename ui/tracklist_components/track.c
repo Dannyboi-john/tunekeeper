@@ -6,7 +6,7 @@ lv_obj_t* create_track(lv_obj_t *parent, const char *name) {
 
     // Instantiates & styles the track
     lv_obj_t *track = lv_obj_create(parent);
-    lv_obj_set_size(track, LV_PCT(30), 100);
+    lv_obj_set_size(track, LV_PCT(30), 120);
     lv_obj_set_flex_flow(track, LV_FLEX_FLOW_COLUMN);
     lv_obj_set_flex_align(track, LV_FLEX_ALIGN_START, LV_FLEX_ALIGN_START, LV_FLEX_ALIGN_START);
     lv_obj_set_style_pad_all(track, 0, LV_PART_MAIN);
