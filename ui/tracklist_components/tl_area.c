@@ -14,7 +14,6 @@ void create_track_button_cb(lv_event_t * e)
     create_track(parent, track_label);
 
     lv_obj_move_to_index(btn, -1);
-
 }
 
 
