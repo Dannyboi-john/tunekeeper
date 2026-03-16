@@ -3,6 +3,6 @@
 
 #include "lvgl/lvgl.h"
 
-
+lv_obj_t * create_prev_button(lv_obj_t * parent);
 
 #endif

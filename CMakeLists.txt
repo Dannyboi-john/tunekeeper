@@ -19,6 +19,8 @@ add_executable(tunekeeper
     ui/header_components/bpm_dd.c
     ui/header_components/record_button.c
     ui/header_components/settings_button.c
+    ui/header_components/prev_button.c
+    ui/header_components/next_button.c
     ui/tracklist_components/tl_area.c
     ui/tracklist_components/track.c)
 

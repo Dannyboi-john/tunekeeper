@@ -10,7 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/danny/tunekeeper/main.c" "CMakeFiles/tunekeeper.dir/main.c.o" "gcc" "CMakeFiles/tunekeeper.dir/main.c.o.d"
   "/home/danny/tunekeeper/ui/header_components/bpm_dd.c" "CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o.d"
+  "/home/danny/tunekeeper/ui/header_components/next_button.c" "CMakeFiles/tunekeeper.dir/ui/header_components/next_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/header_components/next_button.c.o.d"
   "/home/danny/tunekeeper/ui/header_components/play_button.c" "CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o.d"
+  "/home/danny/tunekeeper/ui/header_components/prev_button.c" "CMakeFiles/tunekeeper.dir/ui/header_components/prev_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/header_components/prev_button.c.o.d"
   "/home/danny/tunekeeper/ui/header_components/record_button.c" "CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o.d"
   "/home/danny/tunekeeper/ui/header_components/settings_button.c" "CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o.d"
   "/home/danny/tunekeeper/ui/header_components/stop_button.c" "CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o.d"

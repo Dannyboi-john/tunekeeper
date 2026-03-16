@@ -480,6 +480,8 @@ CMakeFiles/tunekeeper.dir/ui/ui.c.o: /home/danny/tunekeeper/ui/ui.c \
  /home/danny/tunekeeper/lvgl/lvgl.h \
  /home/danny/tunekeeper/ui/header_components/record_button.h \
  /home/danny/tunekeeper/ui/header_components/settings_button.h \
+ /home/danny/tunekeeper/ui/header_components/prev_button.h \
+ /home/danny/tunekeeper/ui/header_components/next_button.h \
  /home/danny/tunekeeper/ui/tracklist_components/tl_area.h \
  /home/danny/tunekeeper/ui/tracklist_components/track.h \
  /home/danny/tunekeeper/ui/ui_utils.h \

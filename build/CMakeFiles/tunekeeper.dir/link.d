@@ -10,6 +10,8 @@ tunekeeper: \
   CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o \
   CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o \
   CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o \
+  CMakeFiles/tunekeeper.dir/ui/header_components/prev_button.c.o \
+  CMakeFiles/tunekeeper.dir/ui/header_components/next_button.c.o \
   CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o \
   CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o \
   lvgl/lib/liblvgl.a \
@@ -176,6 +178,10 @@ CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o:
 CMakeFiles/tunekeeper.dir/ui/header_components/record_button.c.o:
 
 CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o:
+
+CMakeFiles/tunekeeper.dir/ui/header_components/prev_button.c.o:
+
+CMakeFiles/tunekeeper.dir/ui/header_components/next_button.c.o:
 
 CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o:
 

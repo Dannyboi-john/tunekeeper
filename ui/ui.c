@@ -9,6 +9,8 @@
 #include "header_components/bpm_dd.h"
 #include "header_components/record_button.h"
 #include "header_components/settings_button.h"
+#include "header_components/prev_button.h"
+#include "header_components/next_button.h"
 #include "tracklist_components/tl_area.h"
 #include "tracklist_components/track.h"
 #include "ui_utils.h"
@@ -47,6 +49,8 @@ void ui_init(void)
     lv_obj_t * bpm_dd = create_bpm_dropdown(screen);
     lv_obj_t * record_button = create_record_button(screen);
     lv_obj_t * settings_button = create_settings_button(screen);
+    lv_obj_t * prev_button = create_prev_button(screen);
+    lv_obj_t * next_button = create_next_button(screen);
 
     // Track list segment
     lv_obj_t *track_list = create_track_list(screen);
