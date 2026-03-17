@@ -18,7 +18,7 @@ lv_obj_t * create_next_button(lv_obj_t * parent)
     lv_style_set_border_opa(&style_button, LV_OPA_50);
     lv_obj_set_style_radius(next_button, 1, LV_PART_MAIN);
     lv_obj_set_style_bg_color(next_button, lv_color_hex(0x322D31), LV_PART_MAIN);
-    lv_obj_set_pos(next_button, lv_pct(24), 0);
+    lv_obj_set_pos(next_button, lv_pct(24), 50);
     lv_obj_set_size(next_button, lv_pct(6), lv_pct(10));
 
     /* Label styling */

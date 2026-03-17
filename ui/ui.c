@@ -4,6 +4,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 #include "ui/images/icons.h"
+#include "menu_bar_components/file.h"
 #include "header_components/play_button.h"
 #include "header_components/stop_button.h"
 #include "header_components/bpm_dd.h"
@@ -27,7 +28,7 @@ void ui_init(void)
     lv_obj_t * screen = lv_screen_active();
 
     // Screen color setting
-    lv_obj_set_style_bg_color(lv_screen_active(), lv_color_hex(0x4D4C5C), LV_PART_MAIN);
+    lv_obj_set_style_bg_color(lv_screen_active(), lv_color_hex(0x48494B), LV_PART_MAIN);
 
     // Initialize mouse and keyboard while building - touch events later
     lv_sdl_mouse_create();
@@ -43,6 +44,9 @@ void ui_init(void)
     // State management for the play button
     app_state.play_button = create_play_button(screen, &app_state);
 
+
+    // Menu bar components
+    lv_obj_t * file_dropdown = create_file_dropdown(screen);
 
     // Header components
     lv_obj_t * stop_button = create_stop_button(screen, &app_state);

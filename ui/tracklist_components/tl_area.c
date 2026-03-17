@@ -21,7 +21,7 @@ void create_track_button_cb(lv_event_t * e)
 lv_obj_t *create_track_list(lv_obj_t * parent)
 {
     lv_obj_t *track_list_area = lv_obj_create(lv_screen_active());
-    lv_obj_set_size(track_list_area, LV_PCT(100), LV_PCT(80));
+    lv_obj_set_size(track_list_area, LV_PCT(100), LV_PCT(75));
     lv_obj_set_flex_flow(track_list_area, LV_FLEX_FLOW_COLUMN);
     lv_obj_set_flex_align(track_list_area, LV_FLEX_ALIGN_START, LV_FLEX_ALIGN_START, LV_FLEX_ALIGN_START);
     lv_obj_align(track_list_area, LV_ALIGN_BOTTOM_MID, 0, 0);

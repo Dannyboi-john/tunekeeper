@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/danny/tunekeeper/ui/header_components/settings_button.c" "CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/header_components/settings_button.c.o.d"
   "/home/danny/tunekeeper/ui/header_components/stop_button.c" "CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o.d"
   "/home/danny/tunekeeper/ui/images/record.c" "CMakeFiles/tunekeeper.dir/ui/images/record.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/images/record.c.o.d"
+  "/home/danny/tunekeeper/ui/menu_bar_components/file.c" "CMakeFiles/tunekeeper.dir/ui/menu_bar_components/file.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/menu_bar_components/file.c.o.d"
   "/home/danny/tunekeeper/ui/tracklist_components/tl_area.c" "CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o.d"
   "/home/danny/tunekeeper/ui/tracklist_components/track.c" "CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o.d"
   "/home/danny/tunekeeper/ui/ui.c" "CMakeFiles/tunekeeper.dir/ui/ui.c.o" "gcc" "CMakeFiles/tunekeeper.dir/ui/ui.c.o.d"

@@ -42,7 +42,7 @@ lv_obj_t * create_stop_button(lv_obj_t * parent, app_state_t * state)
     /* Button styling */
     lv_obj_set_size(stop_button, lv_pct(6), lv_pct(10));
     lv_obj_set_style_bg_color(stop_button, lv_color_hex(0x322D31), LV_PART_MAIN);
-    lv_obj_set_pos(stop_button, lv_pct(12), 0);
+    lv_obj_set_pos(stop_button, lv_pct(12), 50);
     lv_obj_set_style_radius(stop_button, 1, LV_PART_MAIN);
     lv_style_set_border_width(&style_button, 1);
     lv_style_set_border_color(&style_button, lv_color_black());

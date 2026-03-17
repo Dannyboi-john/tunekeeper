@@ -9,7 +9,7 @@ lv_obj_t * create_bpm_dropdown(lv_obj_t * parent)
 {
     lv_obj_t * bpm_dd = lv_dropdown_create(parent);
     lv_dropdown_clear_options(bpm_dd);
-    lv_obj_align(bpm_dd, LV_ALIGN_TOP_MID, 0, 0);
+    lv_obj_align(bpm_dd, LV_ALIGN_TOP_MID, 0, 50);
 
     for (int i = 20; i <= 200; i++) {
         char buffer[16];

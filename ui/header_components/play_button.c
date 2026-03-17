@@ -56,7 +56,7 @@ lv_obj_t * create_play_button(lv_obj_t * parent, app_state_t * state)
     lv_style_set_border_color(&style_button, lv_color_black());
 
     /* Align to the top left */
-    lv_obj_set_pos(play_button, lv_pct(6), 0);
+    lv_obj_set_pos(play_button, lv_pct(6), 50);
     
     return play_button;
 }

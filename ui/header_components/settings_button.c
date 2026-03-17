@@ -23,7 +23,7 @@ lv_obj_t * create_settings_button(lv_obj_t * parent)
     lv_style_set_border_opa(&style_button, LV_OPA_50);
     lv_obj_set_style_radius(settings_button, 1, LV_PART_MAIN);
     lv_obj_set_style_bg_color(settings_button, lv_color_hex(0x322D31), LV_PART_MAIN);
-    lv_obj_align(settings_button, LV_ALIGN_TOP_RIGHT, 0, 0);
+    lv_obj_align(settings_button, LV_ALIGN_TOP_RIGHT, 0, 50);
 
     lv_obj_set_size(settings_button, lv_pct(6), lv_pct(10));
 

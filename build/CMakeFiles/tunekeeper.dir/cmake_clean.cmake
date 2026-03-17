@@ -18,6 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o.d"
   "CMakeFiles/tunekeeper.dir/ui/images/record.c.o"
   "CMakeFiles/tunekeeper.dir/ui/images/record.c.o.d"
+  "CMakeFiles/tunekeeper.dir/ui/menu_bar_components/file.c.o"
+  "CMakeFiles/tunekeeper.dir/ui/menu_bar_components/file.c.o.d"
   "CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o"
   "CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o.d"
   "CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o"
