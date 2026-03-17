@@ -442,6 +442,30 @@ ui/images/record.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/images/record.c.s
 .PHONY : ui/images/record.c.s
 
+ui/menu_bar_components/edit.o: ui/menu_bar_components/edit.c.o
+.PHONY : ui/menu_bar_components/edit.o
+
+# target to build an object file
+ui/menu_bar_components/edit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/menu_bar_components/edit.c.o
+.PHONY : ui/menu_bar_components/edit.c.o
+
+ui/menu_bar_components/edit.i: ui/menu_bar_components/edit.c.i
+.PHONY : ui/menu_bar_components/edit.i
+
+# target to preprocess a source file
+ui/menu_bar_components/edit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/menu_bar_components/edit.c.i
+.PHONY : ui/menu_bar_components/edit.c.i
+
+ui/menu_bar_components/edit.s: ui/menu_bar_components/edit.c.s
+.PHONY : ui/menu_bar_components/edit.s
+
+# target to generate assembly for a file
+ui/menu_bar_components/edit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/menu_bar_components/edit.c.s
+.PHONY : ui/menu_bar_components/edit.c.s
+
 ui/menu_bar_components/file.o: ui/menu_bar_components/file.c.o
 .PHONY : ui/menu_bar_components/file.o
 
@@ -582,6 +606,9 @@ help:
 	@echo "... ui/images/record.o"
 	@echo "... ui/images/record.i"
 	@echo "... ui/images/record.s"
+	@echo "... ui/menu_bar_components/edit.o"
+	@echo "... ui/menu_bar_components/edit.i"
+	@echo "... ui/menu_bar_components/edit.s"
 	@echo "... ui/menu_bar_components/file.o"
 	@echo "... ui/menu_bar_components/file.i"
 	@echo "... ui/menu_bar_components/file.s"
