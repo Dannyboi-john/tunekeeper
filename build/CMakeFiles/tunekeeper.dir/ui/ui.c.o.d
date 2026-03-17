@@ -475,6 +475,7 @@ CMakeFiles/tunekeeper.dir/ui/ui.c.o: /home/danny/tunekeeper/ui/ui.c \
  /home/danny/tunekeeper/lvgl/lvgl.h \
  /home/danny/tunekeeper/ui/menu_bar_components/file.h \
  /home/danny/tunekeeper/ui/menu_bar_components/edit.h \
+ /home/danny/tunekeeper/ui/menu_bar_components/select.h \
  /home/danny/tunekeeper/ui/header_components/play_button.h \
  /home/danny/tunekeeper/app_state.h /home/danny/tunekeeper/lvgl/lvgl.h \
  /home/danny/tunekeeper/ui/header_components/stop_button.h \

@@ -16,7 +16,7 @@ lv_obj_t * create_edit_dropdown(lv_obj_t * parent)
     // Creating the edit dropdown menu.
     lv_obj_t * edit_dropdown = lv_dropdown_create(lv_screen_active());
     lv_obj_t * dropdown_list = lv_dropdown_get_list(edit_dropdown);
-    lv_obj_align(edit_dropdown, LV_ALIGN_TOP_LEFT, lv_pct(17), 0);
+    lv_obj_align(edit_dropdown, LV_ALIGN_TOP_LEFT, lv_pct(16), 0);
     lv_dropdown_set_options(edit_dropdown, "Undo\n"
                                         "Redo\n"
                                         "Cut\n"
