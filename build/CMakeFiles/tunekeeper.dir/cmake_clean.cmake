@@ -24,6 +24,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tunekeeper.dir/ui/menu_bar_components/file.c.o.d"
   "CMakeFiles/tunekeeper.dir/ui/menu_bar_components/select.c.o"
   "CMakeFiles/tunekeeper.dir/ui/menu_bar_components/select.c.o.d"
+  "CMakeFiles/tunekeeper.dir/ui/menu_bar_components/view.c.o"
+  "CMakeFiles/tunekeeper.dir/ui/menu_bar_components/view.c.o.d"
   "CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o"
   "CMakeFiles/tunekeeper.dir/ui/tracklist_components/tl_area.c.o.d"
   "CMakeFiles/tunekeeper.dir/ui/tracklist_components/track.c.o"

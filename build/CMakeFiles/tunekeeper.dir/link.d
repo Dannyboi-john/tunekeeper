@@ -8,6 +8,7 @@ tunekeeper: \
   CMakeFiles/tunekeeper.dir/ui/menu_bar_components/file.c.o \
   CMakeFiles/tunekeeper.dir/ui/menu_bar_components/edit.c.o \
   CMakeFiles/tunekeeper.dir/ui/menu_bar_components/select.c.o \
+  CMakeFiles/tunekeeper.dir/ui/menu_bar_components/view.c.o \
   CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o \
   CMakeFiles/tunekeeper.dir/ui/header_components/stop_button.c.o \
   CMakeFiles/tunekeeper.dir/ui/header_components/bpm_dd.c.o \
@@ -177,6 +178,8 @@ CMakeFiles/tunekeeper.dir/ui/menu_bar_components/file.c.o:
 CMakeFiles/tunekeeper.dir/ui/menu_bar_components/edit.c.o:
 
 CMakeFiles/tunekeeper.dir/ui/menu_bar_components/select.c.o:
+
+CMakeFiles/tunekeeper.dir/ui/menu_bar_components/view.c.o:
 
 CMakeFiles/tunekeeper.dir/ui/header_components/play_button.c.o:
 

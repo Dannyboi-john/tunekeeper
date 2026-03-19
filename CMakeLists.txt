@@ -17,6 +17,7 @@ add_executable(tunekeeper
     ui/menu_bar_components/file.c
     ui/menu_bar_components/edit.c
     ui/menu_bar_components/select.c
+    ui/menu_bar_components/view.c
     ui/header_components/play_button.c
     ui/header_components/stop_button.c
     ui/header_components/bpm_dd.c

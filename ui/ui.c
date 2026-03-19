@@ -7,6 +7,7 @@
 #include "menu_bar_components/file.h"
 #include "menu_bar_components/edit.h"
 #include "menu_bar_components/select.h"
+#include "menu_bar_components/view.h"
 #include "header_components/play_button.h"
 #include "header_components/stop_button.h"
 #include "header_components/bpm_dd.h"
@@ -51,6 +52,7 @@ void ui_init(void)
     lv_obj_t * file_dropdown = create_file_dropdown(screen);
     lv_obj_t * edit_dropdown = create_edit_dropdown(screen);
     lv_obj_t * select_dropdown = create_select_dropdown(screen);
+    lv_obj_t * view_dropdown = create_view_dropdown(screen);
 
     // Header components
     lv_obj_t * stop_button = create_stop_button(screen, &app_state);

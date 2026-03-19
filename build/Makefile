@@ -514,6 +514,30 @@ ui/menu_bar_components/select.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/menu_bar_components/select.c.s
 .PHONY : ui/menu_bar_components/select.c.s
 
+ui/menu_bar_components/view.o: ui/menu_bar_components/view.c.o
+.PHONY : ui/menu_bar_components/view.o
+
+# target to build an object file
+ui/menu_bar_components/view.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/menu_bar_components/view.c.o
+.PHONY : ui/menu_bar_components/view.c.o
+
+ui/menu_bar_components/view.i: ui/menu_bar_components/view.c.i
+.PHONY : ui/menu_bar_components/view.i
+
+# target to preprocess a source file
+ui/menu_bar_components/view.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/menu_bar_components/view.c.i
+.PHONY : ui/menu_bar_components/view.c.i
+
+ui/menu_bar_components/view.s: ui/menu_bar_components/view.c.s
+.PHONY : ui/menu_bar_components/view.s
+
+# target to generate assembly for a file
+ui/menu_bar_components/view.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunekeeper.dir/build.make CMakeFiles/tunekeeper.dir/ui/menu_bar_components/view.c.s
+.PHONY : ui/menu_bar_components/view.c.s
+
 ui/tracklist_components/tl_area.o: ui/tracklist_components/tl_area.c.o
 .PHONY : ui/tracklist_components/tl_area.o
 
@@ -639,6 +663,9 @@ help:
 	@echo "... ui/menu_bar_components/select.o"
 	@echo "... ui/menu_bar_components/select.i"
 	@echo "... ui/menu_bar_components/select.s"
+	@echo "... ui/menu_bar_components/view.o"
+	@echo "... ui/menu_bar_components/view.i"
+	@echo "... ui/menu_bar_components/view.s"
 	@echo "... ui/tracklist_components/tl_area.o"
 	@echo "... ui/tracklist_components/tl_area.i"
 	@echo "... ui/tracklist_components/tl_area.s"
