@@ -2,6 +2,16 @@
 #include "track.h"
 #include <unistd.h>
 
+
+void delete_button_cb_fn(lv_event_t * e)
+{
+    // Gets obj to delete
+    lv_obj_t * track = (lv_obj_t *)lv_event_get_user_data(e);
+
+    // Deletes track
+    lv_obj_del(track);
+}
+
 lv_obj_t* create_track(lv_obj_t *parent, const char *name) {
 
     // Instantiates & styles the track
@@ -49,6 +59,8 @@ lv_obj_t* create_track(lv_obj_t *parent, const char *name) {
     lv_obj_center(delete_label);
     lv_obj_set_style_radius(delete_button, 1, LV_PART_MAIN);
     lv_obj_set_style_bg_color(delete_button, lv_color_hex(0x8a9ab5), LV_PART_MAIN);
+    // Delete cb function
+    lv_obj_add_event_cb(delete_button, delete_button_cb_fn, LV_EVENT_CLICKED, track);
 
     // Row 2: volume slider
     lv_obj_t *slider_row = lv_obj_create(track);
